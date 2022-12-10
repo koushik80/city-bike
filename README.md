@@ -27,7 +27,7 @@
 
 <h3 align="left">Requirements: :bookmark:</h3>
 
-<p align="left" font="bold">Data Import</p>
+<h4 align="left" font="bold">Data Import:</h4>
 
 <ol type="1">
 <li>Import data from the CSV files to a database or in-memory storage</li>
@@ -36,7 +36,7 @@
 <li>Don't import journeys that covered distances shorter than 10 meters</li>
 </ol>
 
-<p align="left" font="bold">Journey list view</p>
+<h4 align="left" font="bold">Journey list view:</h4>
 
 <ol type="1">
 <li>Journey list view</li>
@@ -46,16 +46,15 @@
 <li>Filtering</li>
 </ol>
 
-<p align="left" font="bold">Station list</p>
+<h4 align="left" font="bold">Station list:</h4>
 
 <ol type="1">
 <li>List all the stations</li>
 <li>Pagination</li>
 <li>Searching</li>
-
 </ol>
 
-<p align="left" font="bold">Single station view</p>
+<h4 align="left" font="bold">Single station view:</h4>
 
 <ol type="1">
 <li>Station name</li>
