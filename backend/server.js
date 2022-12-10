@@ -14,8 +14,10 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
     dotenv.config({ path: 'backend/config/config.env' });
 }
 
+// db connection
 connectDatabase();
 
+// start server
 const server = app.listen(process.env.PORT, () => {
     console.log(`Server is firing on http://localhost:${process.env.PORT}`);
 });
@@ -23,7 +25,7 @@ const server = app.listen(process.env.PORT, () => {
 // UNHANDLED PROMISE REJECTION
 process.on("unhandledRejection", err => {
     console.log(`Error: ${err.message}`);
-    console.log(`Shutting Down the Serve due to Unhandled Promise Rejection!`);
+    console.log(`Shutting Down the Server due to Unhandled Promise Rejection!`);
 
     server.close(() => {
         process.exit(1)
