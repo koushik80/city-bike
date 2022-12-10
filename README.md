@@ -95,7 +95,7 @@
 
 <h3 align="left">Technologies: :computer:</h3>
 
-<p align="left" font="bold">Frontend</p>
+<h4 align="left" font="bold">Frontend</h4>
 
 <ul>
 <li>React</li>
@@ -104,13 +104,15 @@
 <li></li>
 </ul>
 
-<p align="left" font="bold">Backend</p>
+<h4 align="left" font="bold">Backend</h4>
 
 <ul>
 <li>Node</li>
-<li>MongoDB</li>
-<li></li>
-<li></li>
+<li>Express</li>
+<li>Cors</li>
+<li>Mongoose</li>
+<li>Dotenv</li>
+<li>Nodemon</li>
 </ul>
 
 <p align="left" font="bold">Development Environment</p>
@@ -118,6 +120,7 @@
 <ul>
 <li>Nodemon</li>
 <li>VS Code</li>
+<li>Postman</li>
 </ul>
 
 ---
