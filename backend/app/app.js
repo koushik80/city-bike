@@ -11,14 +11,13 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 //parsing json
 app.use(express.json());
 
-// using cors to allow cross-origin access with frontend
+// used cors to allow cross-origin access with frontend
 app.use(cors());
 
 // imported routers
 const journey = require("../routes/journey.routes");
 
-
-//using middleware
+//middleware
 app.use("/api/v1/journey", journey);
 
 
