@@ -16,9 +16,11 @@ app.use(cors());
 
 // imported routers
 const journey = require("../routes/journey.routes");
+const station = require("../routes/station.routes");
 
 //middleware
-app.use("/api/v1/journey", journey);
+app.use("/api/journey", journey);
+app.use("/api/station", station);
 
 
 app.get('/', (req, res) => {
@@ -28,9 +30,18 @@ app.get('/', (req, res) => {
 });
 
 // getting journey
-app.get('/api/v1/journey', (req, res) => {
+app.get('/api/journey', (req, res) => {
+
     res.status(200).json({
-        message: "This is JOURNEY REST API Version 1."
+        message: "This is JOURNEY REST API."
+    });
+});
+
+// getting station
+app.get('/api/station', (req, res) => {
+
+    res.status(200).json({
+        message: "This is STATION REST API."
     });
 });
 

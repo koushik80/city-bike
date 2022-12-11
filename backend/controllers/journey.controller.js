@@ -2,7 +2,7 @@ const Journey = require('./../models/journey.model');
 const catchAsyncError = require('../middleware/catchAsyncError');
 const ErrorHandler = require('../error/errorHandler');
 
-
+// GET ALL JOURNEYS
 exports.getAllJourney = catchAsyncError(async (req, res, next) => {
     const journey = await Journey.find();
     const totalJourney = await Journey.countDocuments();

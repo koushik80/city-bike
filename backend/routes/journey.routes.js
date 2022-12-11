@@ -6,6 +6,4 @@ router.route('/all').get(getAllJourney);
 
 
 
-
-
 module.exports = router;
