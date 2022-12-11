@@ -1,3 +1,4 @@
+// internal import
 const ErrorHandler = require("../error/errorHandler");
 
 exports.errorMiddleware = (err, req, res, next) => {

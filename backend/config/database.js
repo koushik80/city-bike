@@ -1,3 +1,4 @@
+// external import
 const mongoose = require("mongoose");
 const connectDatabase = () => {
     mongoose.set('strictQuery', false);

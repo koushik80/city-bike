@@ -1,3 +1,4 @@
+// external imports
 const express = require("express");
 const app = express();
 const dotenv = require("dotenv");
@@ -14,7 +15,7 @@ app.use(express.json());
 // used cors to allow cross-origin access with frontend
 app.use(cors());
 
-// imported routers
+// imported routers (internal imports)
 const journey = require("../routes/journey.routes");
 const station = require("../routes/station.routes");
 const { errorMiddleware } = require("../middleware/errorMiddleware");
