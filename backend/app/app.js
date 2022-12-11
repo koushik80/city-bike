@@ -8,7 +8,7 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
     dotenv.config({ path: 'backend/config/config.env' });
 }
 
-//parsing json
+// parsing json
 app.use(express.json());
 
 // used cors to allow cross-origin access with frontend
@@ -17,8 +17,9 @@ app.use(cors());
 // imported routers
 const journey = require("../routes/journey.routes");
 const station = require("../routes/station.routes");
+const { errorMiddleware } = require("../middleware/errorMiddleware");
 
-//middleware
+// middleware
 app.use("/api/journey", journey);
 app.use("/api/station", station);
 
@@ -29,22 +30,7 @@ app.get('/', (req, res) => {
     });
 });
 
-// getting journey
-app.get('/api/journey', (req, res) => {
-
-    res.status(200).json({
-        message: "This is JOURNEY REST API."
-    });
-});
-
-// getting station
-app.get('/api/station', (req, res) => {
-
-    res.status(200).json({
-        message: "This is STATION REST API."
-    });
-});
-
-
+// ERROR MIDDLEWARE
+app.use(errorMiddleware)
 
 module.exports = app;
