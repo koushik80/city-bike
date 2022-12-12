@@ -44,3 +44,16 @@ exports.createJourney = catchAsyncError(async (req, res, next) => {
 });
 
 // DELETE A JOURNEY
+exports.deleteJourney = catchAsyncError(async (req, res, next) => {
+
+    const journey = await Journey.findById(req.params.id);
+
+    if (!journey) return next(new ErrorHandler("Journey data not found", 404));
+
+    await journey.remove();
+
+    res.status(200).json({
+        success: true,
+        message: "Journey deleted successfully",
+    });
+ });

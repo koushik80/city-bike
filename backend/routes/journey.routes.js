@@ -6,7 +6,8 @@ const router = express.Router();
 const {
     getAllJourney,
     createJourney,
-    getJourneyDetails
+    getJourneyDetails,
+    deleteJourney
 } = require("../controllers/journey.controller");
 
 
@@ -14,8 +15,8 @@ router.route('/all').get(getAllJourney);
 
 router.route('/create').post(createJourney);
 
-router.route('/:id').get(getJourneyDetails);
-
-
+router.route('/:id')
+    .get(getJourneyDetails)
+    .delete(deleteJourney);
 
 module.exports = router;
