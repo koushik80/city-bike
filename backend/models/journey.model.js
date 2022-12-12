@@ -28,14 +28,17 @@ const journeySchema = new Schema({
     covered_distance: {
         type: Number,
         required: true,
+        min: [10, "minimum covered distance must be at least 10 seconds"]
     },
     duration: {
         type: Number,
         required: true,
+        min: [10, "minimum duration must be at least 10 seconds"]
     },
 },
     {
         timestamps: true
-    });
+    }
+);
 
 module.exports = model("Journey", journeySchema);
