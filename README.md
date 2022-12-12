@@ -101,8 +101,10 @@
 
 <ul>
 <li>React</li>
-<li>Axios</li>
-<li></li>
+<li>React Router</li>
+<li>Redux</li>
+<li>RTK Query</li>
+<li>SASS</li>
 <li></li>
 </ul>
 
@@ -114,7 +116,6 @@
 <li>Cors</li>
 <li>Mongoose</li>
 <li>Dotenv</li>
-<li>Nodemon</li>
 </ul>
 
 <p align="left" font="bold">Development Environment</p>
