@@ -13,12 +13,9 @@ const {
 
 router.route('/all').get(getAllStations);
 router.route('/create').post(createStation);
-
 router.route('/:id')
     .get(getStationDetails)
     .delete(deleteStation);
-
-
 
 
 module.exports = router;
