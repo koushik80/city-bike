@@ -4,6 +4,7 @@ const initialState = {
 
 };
 
+// CREATED JOURNEY SLICE
 const journeySlice = createSlice({
     name: "journey",
     initialState,

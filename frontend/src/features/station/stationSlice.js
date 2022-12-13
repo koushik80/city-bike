@@ -4,6 +4,7 @@ const initialState = {
 
 };
 
+// CREATED STATION SLICE
 const stationSlice = createSlice({
     name: "station",
     initialState,

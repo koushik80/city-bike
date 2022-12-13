@@ -10,7 +10,7 @@ const baseQuery = fetchBaseQuery({
     }
 });
 
-
+// CREATED API SLICE
 const apiSlice = createApi({
     reducerPath: "api",
     baseQuery: async (args, api, extraOptions) => {

@@ -1,0 +1,7 @@
+@mixin transform($one) {
+  -webkit-transform: $one;
+  -moz-transform: $one;
+  -ms-transform: $one;
+  -o-transform: $one;
+  transform: $one;
+}

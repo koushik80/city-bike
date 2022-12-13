@@ -5,7 +5,7 @@
 
 import apiSlice from "../api/apiSlice";
 
-
+// INJECT END POINTS WITH API SLICE
 export const journeyApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getJourney: builder.query({
