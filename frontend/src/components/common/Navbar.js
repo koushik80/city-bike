@@ -1,7 +1,7 @@
 import { Container } from '@mui/material';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from './../../image/logo.png';
+import logo from './../../image/logo.jpg';
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
                             <NavLink to="/station">Station</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/">Contact us</NavLink>
+                            <NavLink to="/">Contact</NavLink>
                         </li>
                     </ul>
                 </div>

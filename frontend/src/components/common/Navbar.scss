@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &--logo {
+    padding: 0.2rem 0rem;
+    img {
+      width: 80px;
+      height: 57px;
+      object-fit: contain;
+    }
+  }
+
+  &--link-list {
+    ul {
+      display: flex;
+      gap: 16px;
+      li {
+        a {
+          padding-bottom: 2px;
+          &:hover {
+            color: #ff5200;
+            border-bottom: 5px solid #ff5200;
+          }
+        }
+      }
+    }
+  }
+}
