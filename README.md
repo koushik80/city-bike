@@ -102,8 +102,8 @@
 <ul>
 <li>React</li>
 <li>React Router</li>
-<li>Redux</li>
-<li>RTK Query</li>
+<li>React Redux</li>
+<li>RTK Query(Redux JS Toolkit)</li>
 <li>SASS</li>
 <li>Styled Components</li>
 <li>Material UI</li>

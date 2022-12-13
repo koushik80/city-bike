@@ -1,0 +1,36 @@
+//doc:
+// https://redux-toolkit.js.org/rtk-query/usage/queries
+//https://redux-toolkit.js.org/rtk-query/usage/mutations
+
+
+import apiSlice from "../api/apiSlice";
+
+
+export const journeyApi = apiSlice.injectEndpoints({
+    endpoints: (builder) => ({
+        getJourney: builder.query({
+            query: (arg) => `/journey/all`
+        }),
+        addJourney: builder.mutation({
+            query: ({data, arg}) => ({
+                url: '/journey/create',
+                method: 'POST',
+                body: data
+            }),
+            async onQueryStarted(arg, {queryFulfilled, dispatch}) {
+
+            }
+        }),
+        deleteJourney: builder.mutation({
+            query: ({id, url}) => ({
+                url: `/journey/${id}`,
+                method: 'DELETE'
+            }),
+            async onQueryStarted(arg, {queryFulfilled, dispatch}) {
+
+            }
+        })
+    })
+});
+
+export const {useAddJourneyMutation, useDeleteJourneyMutation, useGetJourneyQuery} = journeyApi;
