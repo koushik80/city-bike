@@ -105,7 +105,10 @@
 <li>Redux</li>
 <li>RTK Query</li>
 <li>SASS</li>
+<li>Styled Components</li>
+<li>Material UI</li>
 <li></li>
+
 </ul>
 
 <h4 align="left" font="bold">Backend</h4>
