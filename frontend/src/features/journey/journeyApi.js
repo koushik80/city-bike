@@ -2,7 +2,6 @@
 // https://redux-toolkit.js.org/rtk-query/usage/queries
 //https://redux-toolkit.js.org/rtk-query/usage/mutations
 
-
 import apiSlice from "../api/apiSlice";
 
 // INJECT END POINTS WITH API SLICE

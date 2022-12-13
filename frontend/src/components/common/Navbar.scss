@@ -5,9 +5,10 @@
 
   &--logo {
     padding: 0.2rem 0rem;
+    cursor: pointer;
     img {
-      width: 80px;
-      height: 57px;
+      width: 55px;
+      height: 35px;
       object-fit: contain;
     }
   }
@@ -20,11 +21,56 @@
         a {
           padding-bottom: 2px;
           &:hover {
-            color: #ff5200;
-            border-bottom: 5px solid #ff5200;
+            color: #5670ff;
+            border-bottom: 5px solid #415cf7;
           }
         }
       }
     }
   }
 }
+
+.wrapper {
+  text-align: center;
+  h1 {
+    padding: 0.1rem;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,#BFB8DA 10%, #56c596 10%, #7BE495 10%, #96D7D6 20%, #5E72EB 20%, #4ADADE 20%, #C2C8C5 20%, #A8DEE0 80%, #FF9190 20%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    display: inline-block;
+}
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media (max-width:600px) {
+
+        &-logo{
+            h1{
+              font-size: 15px;
+            }
+        }
+    }
+    @media (max-width:850px) {
+
+        &-logo{
+            h1{
+              font-size: 15px;
+            }
+        }
+    }

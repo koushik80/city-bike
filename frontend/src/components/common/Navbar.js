@@ -12,20 +12,23 @@ const Navbar = () => {
                     <Link to="/">
                         <img src={logo} alt="" />
                     </Link>
+                    <div className="wrapper">
+                      <h1>Ci†yßîke</h1>
+	                </div>
                 </div>
                 <div className='navbar--link-list'>
                     <ul>
                         <li>
-                            <NavLink to="/">Home</NavLink>
+                           <NavLink to="/">Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/journey">Journey</NavLink>
+                           <NavLink to="/journey">Journey</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/station">Station</NavLink>
+                           <NavLink to="/station">Station</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/">Contact</NavLink>
+                           <NavLink to="/">Contact</NavLink>
                         </li>
                     </ul>
                 </div>
