@@ -1,13 +1,19 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes as AllRoutes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes as AllRoutes } from 'react-router-dom';
+import Navbar from './components/common/Navbar';
+import Journey from './components/journey/Journey';
+import Station from './components/station/Station';
 import Home from './pages/Home';
 
 const Routes = () => {
     return (
         <BrowserRouter>
-            <AllRoutes>
-                <Route path="/" element={<Home />} />
-            </AllRoutes>
+            <Navbar />
+              <AllRoutes>
+                 <Route path="/" element={<Home />} />
+                 <Route path="/journey" element={<Journey />} />
+                 <Route path="/station" element={<Station />} />
+              </AllRoutes>
         </BrowserRouter>
     );
 };

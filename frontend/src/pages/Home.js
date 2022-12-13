@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 
 const Home = () => {
   return (
-   <Fragment>
+    <Fragment>
       <h1>Home</h1>
-   </Fragment>
-  )
-}
+    </Fragment>
+  );
+};
 
 export default Home;
