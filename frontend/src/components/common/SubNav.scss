@@ -1,0 +1,126 @@
+@import "./../../scss/partials/mixins";
+
+.header-area {
+  overflow: hidden;
+
+  .header-top {
+    position: relative;
+    background: #ff5200;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.top_nav_area {
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    width: 50%;
+  }
+
+.header_top_left_side {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: white;
+    top: 0;
+    right: -70px;
+    @include transform(skew(-45deg));
+    }
+
+    ul {
+      display: block;
+      li {
+        display: inline-block;
+
+        a {
+          color: white;
+          line-height: 40px;
+          margin-right: 40px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.header-right-social {
+  position: relative;
+  text-align: right !important;
+  &::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: white;
+    top: 0;
+    left: -70px;
+    @include transform(skew(45deg));
+  }
+
+  ul {
+    display: block;
+    li {
+      display: inline-block;
+
+      a {
+        color: white;
+        margin-left: 24px;
+        line-height: 40px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .top_nav_area {
+    display: flex;
+    flex-wrap: wrap;
+
+    .header_top_left_side {
+      position: relative;
+
+      &::before {
+        width: 0%;
+      }
+    }
+  }
+
+  .header-right-social {
+    &::before {
+      width: 0%;
+    }
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .top_nav_area {
+    display: block;
+    flex-wrap: wrap;
+
+    > div {
+      width: 100%;
+    }
+    .header_top_left_side {
+      position: relative;
+    }
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .top_nav_area {
+    display: none;
+    flex-wrap: wrap;
+
+    > div {
+      width: 100%;
+    }
+    .header_top_left_side {
+      position: relative;
+    }
+  }
+}
