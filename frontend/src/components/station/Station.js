@@ -2,6 +2,7 @@ import { Container, Grid } from '@mui/material';
 import React from 'react';
 import { useGetStationsQuery } from '../../features/station/stationApi';
 import CardLoading from '../loader/CardLoading';
+import StationCard from './StationCard';
 import './Station.scss';
 
 const Station = () => {
@@ -29,7 +30,7 @@ const Station = () => {
 
   if (!isLoading && !isError && data?.stations?.length !== 0) {
     content = data?.stations?.map((station, i) => (
-          <p key={station?._id} item={station}></p>
+      <StationCard key={station?._id} item={station} />
         ))
     }
 
