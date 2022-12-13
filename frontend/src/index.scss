@@ -25,3 +25,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+button, input {
+  border: none;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+}
