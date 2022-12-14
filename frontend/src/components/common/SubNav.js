@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './SubNav.scss';
 
 const SubNav = () => {
@@ -12,7 +13,7 @@ const SubNav = () => {
                             <ul>
                                 <li><a href="https://www.hel.fi/en/" target="_blank" rel="noopener noreferrer">Helsinki</a></li>
                                 <li><a href="https://www.hsl.fi/" target="_blank" rel="noopener noreferrer">HSL</a></li>
-                                <li><a href="#/" target="_blank" rel="noopener noreferrer">Google Map or Mapbox</a></li>
+                                <li><NavLink to="/map">Map</NavLink></li>
                             </ul>
                         </div>
                     </div>
