@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import Station from '../components/station/Station';
 
 const Home = () => {
   return (
     <Fragment>
-      <h1>Home</h1>
+      <Station />
     </Fragment>
   );
 };

@@ -8,7 +8,7 @@ import apiSlice from "../api/apiSlice";
 export const stationApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getStations: builder.query({
-            query: (id) => `/station/all`
+            query: (url) => `/station/all${url}`
         }),
         getStationDetails: builder.query({
             query: (id) => `/stations/${id}`

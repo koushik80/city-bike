@@ -1,25 +1,59 @@
-import { Container, Grid } from '@mui/material';
-import React from 'react';
+import { Container, Grid, Pagination } from '@mui/material';
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { pagination, search } from '../../features/filter/filterSlice';
 import { useGetStationsQuery } from '../../features/station/stationApi';
 import CardLoading from '../loader/CardLoading';
-import StationCard from './StationCard';
 import './Station.scss';
+import StationCard from './StationCard';
 
 const Station = () => {
 
-  // const [page, setPage] = React.useState(1);
-    // const handleChange = (event, value) => {
-    //   setPage(value);
-    // };
+    const dispatch = useDispatch();
+    const debounceHandler = (fn, delay) => {
+        let timeoutId;
+        return (arg) => {
+            if (timeoutId) {
+                clearTimeout(timeoutId)
+            }
+            timeoutId = setTimeout(() => {
+                fn(arg)
+            }, delay);
+        }
+    }
+
+    const doSearch = (text) => {
+        dispatch(search(text))
+    }
+
+    const handleSearch = debounceHandler(doSearch, 500);
+
+    const [page, setPage] = useState(1);
+    const handleChange = (event, value) => {
+        setPage(value);
+        dispatch(pagination(value));
+    };
+
+    const query = useSelector(state => state.filter);
+
+    let queryStr = `?page=${query?.page}`;
+
+    if (query?.search !== undefined) {
+        queryStr = `?keyword=${query?.search}&page=${query?.page}`;
+    } else if (query?.search && query?.search) {
+        queryStr = `?keyword=${query?.search}&page=${query?.page}`;
+    } else {
+        queryStr = `?page=${query?.page}`;
+    }
 
 
-  const { data, isLoading, isError, error } = useGetStationsQuery();
+    const { data, isLoading, isError, error } = useGetStationsQuery(queryStr);
 
     // thinking what can be displayed
     let content;
 
     if (isLoading) {
-        content = [...new Array(30)].map((item, i) => (
+        content = [...new Array(40)].map((item, i) => (
             <CardLoading key={i} />
         ))
     }
@@ -40,7 +74,11 @@ const Station = () => {
                 <div className='station-page--search-section'>
                     <form action="">
                         <div className='station-page--search-section--div'>
-                            <input type="text" placeholder='search by station name' />
+                            <input
+                                type="search" placeholder='search by station name'
+                                onChange={({ target }) => handleSearch(target.value)}
+                                onBlur={({ target }) => handleSearch(target.value)}
+                            />
                             <button type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
                         </div>
                     </form>
@@ -49,12 +87,12 @@ const Station = () => {
                 <Grid container spacing={2}>
                     {content}
                 </Grid>
-
-                {/* <Pagination count={10} variant="outlined" color="primary"  page={page} onChange={handleChange} /> */}
+                <div className="station-page--pagination">
+                    <Pagination count={Math.round(data?.totalStations / 100) || 0} variant="outlined" color="primary" page={page} onChange={handleChange} />
+                </div>
             </div>
         </Container>
     );
-
 };
 
 export default Station;
