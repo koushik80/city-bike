@@ -6,11 +6,11 @@ import './Map.scss';
 mapboxgl.accessToken = process.env.REACT_APP_ACCESS_TOKEN;
 
 const Map = () => {
-  const mapContainer = useRef(null);
-  const map = useRef(null);
-  const [lng, setLng] = useState(24.94);
-  const [lat, setLat] = useState(60.19);
-  const [zoom, setZoom] = useState(10);
+  const mapContainer = useRef(null);    //MapBox Container
+  const map = useRef(null);    //MapBox rendered element
+  const [lng, setLng] = useState(24.94);  //Longitude
+  const [lat, setLat] = useState(60.19);  //Latitude
+  const [zoom, setZoom] = useState(10);   //Zoom Level
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
@@ -20,7 +20,7 @@ const Map = () => {
       center: [lng, lat],
       zoom: zoom
     });
-    });
+  });
 
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
@@ -29,7 +29,7 @@ const Map = () => {
       setLat(map.current.getCenter().lat.toFixed(4));
       setZoom(map.current.getZoom().toFixed(2));
     });
-    });
+  });
 
   return (
     <div id="map">

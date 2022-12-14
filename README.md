@@ -107,6 +107,7 @@
 <li>SASS</li>
 <li>Styled Components</li>
 <li>Material UI</li>
+<li>Mapbox GL</li>
 <li></li>
 
 </ul>

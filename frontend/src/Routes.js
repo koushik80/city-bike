@@ -6,6 +6,7 @@ import Journey from './components/journey/Journey';
 import Station from './components/station/Station';
 import StationDetails from './components/station/StationDetails';
 import Map from './components/map/Map';
+import Navigation from './components/navigation/Navigation';
 import Home from './pages/Home';
 
 const Routes = () => {
@@ -19,6 +20,7 @@ const Routes = () => {
                  <Route path="/station" element={<Station />} />
                 <Route path="/station/:id" element={<StationDetails />} />
                 <Route path="/map" element={<Map />} />
+                <Route path="/navigation" element={<Navigation />} />
               </AllRoutes>
         </BrowserRouter>
     );
