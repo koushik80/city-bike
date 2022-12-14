@@ -3,8 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './Map.scss';
 
-mapboxgl.accessToken =
-  'pk.eyJ1IjoiZmluZm90ZWs4MCIsImEiOiJjbDE5cmswcGsxcXhoM2Jxem05YmEzenZsIn0.an_g9XuuR0h-uKFKcD2zEw';
+mapboxgl.accessToken = process.env.REACT_APP_ACCESS_TOKEN;
 
 const Map = () => {
   const mapContainer = useRef(null);
@@ -33,7 +32,7 @@ const Map = () => {
     });
 
   return (
-    <div>
+    <div id="map">
       <div className="sidebar">
         Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
       </div>

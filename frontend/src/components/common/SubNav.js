@@ -12,7 +12,7 @@ const SubNav = () => {
                         <div className="header_top_left_side">
                             <ul>
                                 <li><a href="https://www.hel.fi/en/" target="_blank" rel="noopener noreferrer">Helsinki</a></li>
-                                <li><a href="https://www.hsl.fi/" target="_blank" rel="noopener noreferrer">HSL</a></li>
+                                <li><a href="https://www.hsl.fi/en/citybikes/helsinki/" target="_blank" rel="noopener noreferrer">HSL</a></li>
                                 <li><NavLink to="/map">Map</NavLink></li>
                             </ul>
                         </div>

@@ -1,16 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 10;
+    bottom: 10;
+    width: 100%;
+}
+
 .map-container {
-height: 400px;
+    height: 400px;
 }
 
 .sidebar {
-background-color: rgba(44, 248, 95, 0.9);
-color: #fff;
-padding: 6px 15px;
-font-family: monospace;
-z-index: 1;
-position: absolute;
-top: 0;
-left: 0;
-margin: 12px;
-border-radius: 4px;
+    background-color: #5670ff;
+    color: #FFFFFF;
+    padding: 6px 15px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12;
+    border-radius: 4px;
 }
+
