@@ -151,7 +151,10 @@
 <h3 align="left">References: :paperclips:</h3>
 
 <ul>
-<li><a href="" target="_blank">Will be added...</a></li>
+<li><a href="https://fullstackopen.com/en/" target="_blank">Full Stack Open 2022</a></li>
+<li><a href="https://docs.mapbox.com/help/tutorials/" target="_blank">mapbox | Docs</a></li>
+<li><a href="https://redux-toolkit.js.org/" target="_blank">Redux Toolkit</a></li>
+<li><a href="https://www.avoindata.fi/data/en_GB/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902" target="_blank">AVOINDATA.FI(HSL)</a></li>
 <li><a href="" target="_blank">Will be added...</a></li>
 <li><a href="" target="_blank">Will be added...</a></li>
 </ul>

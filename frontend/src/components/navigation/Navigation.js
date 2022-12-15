@@ -146,11 +146,11 @@ const Navigation = () => {
         coordinates: route
       }
     };
-    // if the route already exists on the map, we'll reset it using setData
+    // if the route already exists on the map, reset it using setData
     if (map.current.getSource('route')) {
       map.current.getSource('route').setData(geojson);
     }
-    // otherwise, we'll make a new request
+    // otherwise, make a new request
     else {
       map.current.addLayer({
         id: 'route',

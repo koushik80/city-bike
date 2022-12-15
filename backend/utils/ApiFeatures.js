@@ -5,6 +5,7 @@ class ApiFeatures {
         this.queryStr = queryStr;
     }
 
+    // station search by name
     search() {
         const keyword = this.queryStr.keyword ? {
             name: {
@@ -13,6 +14,20 @@ class ApiFeatures {
             }
         } : {};
         this.query = this.query.find({...keyword});
+
+        return this;
+    }
+
+    // journey search by departure_station_name
+    journeySearch() {
+        const keyword1 = this.queryStr.keyword ? {
+            departure_station_name: {
+                $regex: this.queryStr.keyword,
+                $options: "i"
+            }
+        } : {};
+
+        this.query = this.query.find({...keyword1});
 
         return this;
     }

@@ -10,7 +10,7 @@ const Map = () => {
   const map = useRef(null);    //MapBox rendered element
   const [lng, setLng] = useState(24.94);  //Longitude
   const [lat, setLat] = useState(60.19);  //Latitude
-  const [zoom, setZoom] = useState(10);   //Zoom Level
+  const [zoom, setZoom] = useState(8);   //Zoom Level
 
   useEffect(() => {
     if (map.current) return; // initialize map only once

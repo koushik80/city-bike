@@ -2,14 +2,15 @@
 const ErrorHandler = require('../error/errorHandler');
 const catchAsyncError = require('../middleware/catchAsyncError');
 const Station = require('./../models/station.model');
+const Journey = require('../models/journey.model');
 const ApiFeatures = require('../utils/ApiFeatures');
 
 // GET ALL STATIONS
 exports.getAllStations = catchAsyncError( async (req, res, next) => {
 
     const apiFeature = new ApiFeatures(Station.find(), req.query)
-    .search()
-    .pagination(100);
+        .search()
+        .pagination(100);
     const stations = await apiFeature.query;
     const totalStations = await Station.countDocuments();
 
@@ -27,11 +28,21 @@ exports.getStationDetails = catchAsyncError( async (req, res, next) => {
 
     const station = await Station.findById(req.params.id);
 
-    if(!station) return next(new ErrorHandler(`Station data not found with this ID ${req.params.id}`, 404));
+    if (!station) return next(new ErrorHandler(`Station data not found with this ID ${req.params.id}`, 404));
+
+    // TOTAL NUMBER OF JOURNEY STARTING FROM THE STATION
+    const allJourneyStartFromTheStation = (await Journey.find({ departure_station_id: station.id }));
+    const allJourneyEndFromTheStation = (await Journey.find({ return_station_id: station.id }));
 
     res.status(200).json({
         success: true,
-        station,
+        station: {
+            ...station._doc,
+            totalNumberOfJourneyStartFromTheStation: allJourneyStartFromTheStation.length,
+            allJourneyEndFromTheStation: allJourneyEndFromTheStation.length,
+            allJourneyStartFromTheStation,
+            allJourneyEndFromTheStation
+        },
     });
 });
 
