@@ -1,0 +1,29 @@
+.journey-page {
+    &--search-section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #5670ff;
+        padding: 1rem 0rem;
+        margin: 2rem 0rem;
+        border-radius: 3px;
+
+        &--div {
+          display: flex;
+
+          input {
+            width: 300px;
+            padding: 8px 16px;
+            outline: none;
+            font-size: 18px;
+            border-radius: 3px 0px 0px 3px;
+          }
+
+          button{
+            padding: 8px 16px;
+            border-radius: 0px 3px 3px 0px;
+          }
+        }
+      }
+}

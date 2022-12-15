@@ -27,7 +27,7 @@ const Navigation = () => {
       setZoom(map.current.getZoom().toFixed(2));
     });
     route();
-
+    // eslint-disable-next-line
   }, [map.current]);
 
   const locate = () => {

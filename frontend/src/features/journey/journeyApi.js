@@ -8,7 +8,7 @@ import apiSlice from "../api/apiSlice";
 export const journeyApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getJourney: builder.query({
-            query: (arg) => `/journey/all`
+            query: (url) => `/journey/all${url}`
         }),
         addJourney: builder.mutation({
             query: ({data, arg}) => ({
