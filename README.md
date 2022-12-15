@@ -40,13 +40,13 @@
 
 <h4 align="left" font="bold">Journey list view:</h4>
 
-<ol type="1">
-- [x]<li>Journey list view</li>
-- [x]<li>Pagination</li>
-- [x]<li>Ordering per column</li>
-- [x]<li>Searching</li>
-- [x]<li>Filtering</li>
-</ol>
+
+- [x] Journey list view
+- [x] Pagination
+- [x] Ordering per column
+- [x] Searching
+- [x] Filtering
+
 
 <h4 align="left" font="bold">Station list:</h4>
 
