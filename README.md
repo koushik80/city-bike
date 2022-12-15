@@ -34,9 +34,9 @@
 <h4 align="left" font="bold">Recommended</h4>
 
 - [x] Import data from the CSV files to a database or in-memory storage
-- [] Validate data before importing
-- [] Don't import journeys that lasted for less than ten seconds
-- [] Don't import journeys that covered distances shorter than 10 meters
+- [x] Validate data before importing
+- [x] Don't import journeys that lasted for less than ten seconds
+- [x] Don't import journeys that covered distances shorter than 10 meters
 
 <h3 align="left" font="bold">Journey list view:</h3>
 
