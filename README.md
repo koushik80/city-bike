@@ -5,7 +5,7 @@
 </div>
 
 <div>
-<h4 align="center">I started working on this app.... README will be updated during working </h4>
+<h4 align="center">I started working on this app.... README will be updated during development and the app will be linked-up after deployment.</h4>
 </div>
 
 ---
