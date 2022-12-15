@@ -32,7 +32,7 @@
 <h4 align="left" font="bold">Data Import:</h4>
 
 <ol type="1">
-<li>Import data from the CSV files to a database or in-memory storage</li>
+- [x]<li>Import data from the CSV files to a database or in-memory storage</li>
 <li>Validate data before importing</li>
 <li>Don't import journeys that lasted for less than ten seconds</li>
 <li>Don't import journeys that covered distances shorter than 10 meters</li>
@@ -41,19 +41,19 @@
 <h4 align="left" font="bold">Journey list view:</h4>
 
 <ol type="1">
-<li>Journey list view</li>
-<li>Pagination</li>
-<li>Ordering per column</li>
-<li>Searching</li>
-<li>Filtering</li>
+- [x]<li>Journey list view</li>
+- [x]<li>Pagination</li>
+- [x]<li>Ordering per column</li>
+- [x]<li>Searching</li>
+- [x]<li>Filtering</li>
 </ol>
 
 <h4 align="left" font="bold">Station list:</h4>
 
 <ol type="1">
-<li>List all the stations</li>
-<li>Pagination</li>
-<li>Searching</li>
+- [x]<li>List all the stations</li>
+- [x]<li>Pagination</li>
+- [x]<li>Searching</li>
 </ol>
 
 <h4 align="left" font="bold">Single station view:</h4>
@@ -136,7 +136,7 @@
 <p align="left">To be able to set up and run the project needed to install in local computer</p>
 <ul>
 <li>npm</li>
-<li>....</li>
+<li>MongoDB web or Compass for Desktop</li>
 <li>....</li>
 </ul>
 
