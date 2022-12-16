@@ -14,10 +14,11 @@
 
 <p align="left">The assignment required creating a UI by using a backend service for displaying data from journeys made with city bikes in the Helsinki Capital Area. The backend is allowed to use a DB, or it can be memory-based. I preferred to use MongoDB as the memory-based will be quite slow and gave priority to building and running the application smoothly to display the data to the end-to-end users.
 
-During this application development, I decided to use Redux for state management studied it's documentation deeply and implemented it. I observed how it behaves consistently across client, server, and native environments. The state of my application is kept in a store, and each component can access any state that it needs from this store. I used Redux with my React application to maintain and update data across your applications for multiple components to share, all while remaining independent of the components.<br>
+During this application development, I decided to use Redux for state management, studied it's documentation deeply and implemented it. I observed how it behaves consistently across client, server, and native environments. The state of my application is kept in a store, and each component can access any state that it needs from this store. I used Redux with my React application to maintain and update data across your applications for multiple components to share, all while remaining independent of the components.
 </p>
 
 ---
+<br />
 
 ---
 `Provided Data to be used with this assignment to complete.`
@@ -77,14 +78,14 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 `Single station view:`
 
-<h4 align="left" font="bold">Recommended</h4>
+<h4 align="left" font="bold">Recommended(under development)</h4>
 
   - &#x2610; Station name
   - &#x2610; Station address
   - &#x2610; Total number of journeys starting from the station
   - &#x2610; Total number of journeys ending at the station
 
-<h4 align="left" font="bold">Additional</h4>
+<h4 align="left" font="bold">Additional(under development)</h4>
 
   - &#x2610; Station location on the map
   - &#x2610; The average distance of a journey starting from the station
@@ -95,7 +96,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 ---
 
-`Surprise points:`
+`Surprise points:(under development)`
 
   - &#x2610; Endpoints to store new journeys data or new bicycle stations
   - &#x2610; Running backend in Docker
@@ -164,16 +165,16 @@ To be able to set up and run the project needed to install it local computer and
 
 ```
 
-`install command:` `npm i`
+`install command:` `npm i`  <br />
 `running frontend:` `npm start`
 
 <h4 align="left">addresses</h4>
 
-`Home:` `http://localhost:3000`
-`Journey:` `http://localhost:3000/journey`
-`Stations:` `http://localhost:3000/station`
-`Single Station:` `working on it`
-`cNav(Cycle route & duration):` `http://localhost:3000/navigation`
+`Home:` `http://localhost:3000`  <br />
+`Journey:` `http://localhost:3000/journey`  <br />
+`Stations:` `http://localhost:3000/station`  <br />
+`Single Station:` `working on it`  <br />
+`cNav(Cycle route & duration):` `http://localhost:3000/navigation` <br />
 `Contact:` `Working on it`
 
 ---
