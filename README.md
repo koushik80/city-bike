@@ -10,15 +10,6 @@
 
 ---
 
-<div>
-<h3 align="left">Project Gallery: :mountain_biking_man:</h3>
-
-<p>will add at the end</p>
-
-
-</div>
-
----
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
@@ -94,7 +85,7 @@
 ---
 
 ---
-<h3 align="left" font="bold">My edition:</h3>
+<h3 align="left" font="bold">My edition: :point_down:</h3>
 
 - [x] Cycle Route Using Mapbox
 
@@ -138,20 +129,40 @@
 ---
 
 <h3 align="left"> Prerequisites: :gear:</h3>
-<p align="left">To be able to set up and run the project needed to install in local computer</p>
+<p align="left">To be able to set up and run the project needed to install in local computer and required addresses</p>
 <ul>
-<li>npm</li>
-<li>MongoDB web or Compass for Desktop</li>
-<li>....</li>
+<li>install command: npm i</li>
+<li>running frontend: npm start</li>
+<li>Home: http://localhost:3000/</li>
+<li>Journey: http://localhost:3000/journey</li>
+<li>Stations: http://localhost:3000/station</li>
+<li>Single Station: working on it</li>
+<li>cNav(Cycle route & duration): http://localhost:3000/navigation</li>
+<li>Contact: Working on it</li>
 </ul>
 
 ---
 
 <h3 align="left"> Error-Handling: :gear:</h3>
-<p align="left">Will be written during development</p>
+<p align="left">will write....</p>
 
 
 ----
+
+<div>
+<h3 align="left">Project Gallery: :mountain_biking_man:</h3>
+
+<div>
+<img width="1688" alt="Screenshot 2022-12-16 at 2 11 33 AM" src="https://user-images.githubusercontent.com/89943976/207993202-ce528140-909e-4af2-bb16-378bf933d206.png">
+<img width="1688" alt="Screenshot 2022-12-16 at 2 13 27 AM" src="https://user-images.githubusercontent.com/89943976/207993206-443c42ad-b869-4a27-9fe9-1f2a259503d7.png">
+<img width="1688" alt="Screenshot 2022-12-16 at 2 13 09 AM" src="https://user-images.githubusercontent.com/89943976/207993210-aae3c84d-3d3f-4564-b56c-2bab239d9497.png">
+<img width="1688" alt="Screenshot 2022-12-16 at 2 12 36 AM" src="https://user-images.githubusercontent.com/89943976/207993214-c6ce8885-6fb4-46f7-893d-61e443672c00.png">
+<img width="1688" alt="Screenshot 2022-12-16 at 2 11 51 AM" src="https://user-images.githubusercontent.com/89943976/207993216-21e4c7c4-2da5-43f7-b5bc-7be543269fd4.png">
+</div>
+
+</div>
+
+---
 
 <h3 align="left">References: :paperclips:</h3>
 
