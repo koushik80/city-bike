@@ -12,10 +12,27 @@
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
-<p align="left">The assignment required creating a UI by using a backend service for displaying data from journeys made with city bikes in the Helsinki Capital Area. The backend is allowed to use a DB, or it can be memory-based. I preferred to use MongoDB as the memory-based will be quite slow and gave priority to building and running the application smoothly to display the data to the end-to-end users.<br>
+<p align="left">The assignment required creating a UI by using a backend service for displaying data from journeys made with city bikes in the Helsinki Capital Area. The backend is allowed to use a DB, or it can be memory-based. I preferred to use MongoDB as the memory-based will be quite slow and gave priority to building and running the application smoothly to display the data to the end-to-end users.
+
+During this application development, I decided to use Redux for state management studied it's documentation deeply and implemented it. I observed how it behaves consistently across client, server, and native environments. The state of my application is kept in a store, and each component can access any state that it needs from this store. I used Redux with my React application to maintain and update data across your applications for multiple components to share, all while remaining independent of the components.<br>
 </p>
 
 ---
+
+---
+`Provided Data to be used with this assignment to complete.`
+
+[City Bike Finland](https://dev.hsl.fi/citybikes/od-trips-2021/2021-05.csv)
+[City Bike Finland](https://dev.hsl.fi/citybikes/od-trips-2021/2021-06.csv)
+[City Bike Finland](https://dev.hsl.fi/citybikes/od-trips-2021/2021-07.csv)
+
+`Information about Helsinki Region Transport’s (HSL) city bicycle stations.`
+
+[Dataset:]( https://opendata.arcgis.com/datasets/726277c507ef4914b0aec3cbcfcbfafc_0.csv)
+[License and information:]( https://www.avoindata.fi/data/en/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902)
+
+---
+
 
 <h3 align="left">Functional Requirements: :bookmark:</h3>
 
@@ -38,7 +55,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <h4 align="left" font="bold">Recommended</h4>
 
   - [x] Journey list view
-         - [x] For each journey show departure and return stations, covered  distance in kilometers and duration in minutes
+  - [x] For each journey show departure and return stations, covered  distance in kilometers and duration in minutes
 
 <h4 align="left" font="bold">Additional</h4>
 
@@ -78,7 +95,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 ---
 
-`Surprise points: :bust_in_silhouette:`
+`Surprise points:`
 
   - &#x2610; Endpoints to store new journeys data or new bicycle stations
   - &#x2610; Running backend in Docker
@@ -90,7 +107,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 ---
 
-`My edition: :point_down:`
+`My edition:`
 
   - [x] Cycle Route with duration using `Mapbox`
 
@@ -101,6 +118,8 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <h4 align="left" font="bold">Frontend</h4>
 
 `./frontend`
+
+`run: npm start`
 
 <ul>
 <li>React</li>
@@ -117,6 +136,8 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <h4 align="left" font="bold">Backend</h4>
 
  `./backend`
+
+ `run in development environment with nodemon: npm run dev`
 
 <ul>
 <li>Node</li>
@@ -137,10 +158,16 @@ The above-mentioned requirements are given to submit this assignment. The below-
 ---
 
 <h3 align="left"> Prerequisites: :gear:</h3>
-<p align="left">To be able to set up and run the project needed to install it local computer and the required addresses to be used</p>
+
+```
+To be able to set up and run the project needed to install it local computer and the required addresses to be used
+
+```
 <ul>
 <li>install command: npm i</li>
 <li>running frontend: npm start</li>
+
+`addresses`
 <li>Home: http://localhost:3000/</li>
 <li>Journey: http://localhost:3000/journey</li>
 <li>Stations: http://localhost:3000/station</li>
