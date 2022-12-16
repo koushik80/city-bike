@@ -5,16 +5,15 @@
 </div>
 
 <div>
-<h4 align="center">I started working on this app.... README will be updated during development and the app will be linked-up after deployment.</h4>
+<h4 align="center"><a href="">Note: I started working on this app.... README will be updated during development and the app will be linked-up after deployment.</a></h4>
 </div>
 
 ---
 
-
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
-<div align="left">Will write soon...<br>
-</div>
+<p align="left">The assignment required creating a UI by using a backend service for displaying data from journeys made with city bikes in the Helsinki Capital Area. The backend is allowed to use a DB, or it can be memory-based. I preferred to use MongoDB as the memory-based will be quite slow and gave priority to building and running the application smoothly to display the data to the end-to-end users.<br>
+</p>
 
 ---
 
