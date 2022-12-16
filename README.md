@@ -20,6 +20,8 @@
 
 <h3 align="left">Functional Requirements: :bookmark:</h3>
 
+<p align="left" font="bold">The above-mentioned requirements are given to submit this assignment. The below-mentioned tick-marked requirements that I met.</p>
+
 <h3 align="left" font="bold">Data Import:</h3>
 
 <h4 align="left" font="bold">Recommended</h4>
@@ -104,7 +106,6 @@
 <li>Styled Components</li>
 <li>Material UI</li>
 <li>Mapbox GL</li>
-<li></li>
 
 </ul>
 
@@ -143,7 +144,7 @@
 
 ---
 
-<h3 align="left"> Error-Handling: :gear:</h3>
+<h3 align="left">Error-Handling: :gear:</h3>
 <p align="left">will write....</p>
 
 
@@ -156,8 +157,8 @@
 <img width="1688" alt="Screenshot 2022-12-16 at 2 11 33 AM" src="https://user-images.githubusercontent.com/89943976/207993202-ce528140-909e-4af2-bb16-378bf933d206.png">
 <img width="1688" alt="Screenshot 2022-12-16 at 2 13 27 AM" src="https://user-images.githubusercontent.com/89943976/207993206-443c42ad-b869-4a27-9fe9-1f2a259503d7.png">
 <img width="1688" alt="Screenshot 2022-12-16 at 2 13 09 AM" src="https://user-images.githubusercontent.com/89943976/207993210-aae3c84d-3d3f-4564-b56c-2bab239d9497.png">
-<img width="1688" alt="Screenshot 2022-12-16 at 2 12 36 AM" src="https://user-images.githubusercontent.com/89943976/207993214-c6ce8885-6fb4-46f7-893d-61e443672c00.png">
-<img width="1688" alt="Screenshot 2022-12-16 at 2 11 51 AM" src="https://user-images.githubusercontent.com/89943976/207993216-21e4c7c4-2da5-43f7-b5bc-7be543269fd4.png">
+<img width="1690" alt="Screenshot 2022-12-16 at 4 44 36 PM" src="https://user-images.githubusercontent.com/89943976/208123375-b679258f-0a52-4269-99ea-fc6486bc5092.png">
+<img width="1690" alt="Screenshot 2022-12-16 at 4 44 55 PM" src="https://user-images.githubusercontent.com/89943976/208123382-6973de01-6a72-47af-965a-f58c2eadd0aa.png">
 </div>
 
 </div>
