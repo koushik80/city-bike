@@ -34,7 +34,7 @@
 <h4 align="left" font="bold">Recommended</h4>
 
 - [x] Journey list view
-- [] For each journey show departure and return stations, covered distance in kilometers and duration in minutes
+- [x] For each journey show departure and return stations, covered distance in kilometers and duration in minutes
 
 <h4 align="left" font="bold">Additional</h4>
 
