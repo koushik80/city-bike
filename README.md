@@ -28,8 +28,8 @@ During this application development, I decided to use Redux for state management
 
 `Information about Helsinki Region Transport’s (HSL) city bicycle stations.`
 
-[Dataset:]( https://opendata.arcgis.com/datasets/726277c507ef4914b0aec3cbcfcbfafc_0.csv) <br />
-[License and information:]( https://www.avoindata.fi/data/en/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902)
+[Dataset]( https://opendata.arcgis.com/datasets/726277c507ef4914b0aec3cbcfcbfafc_0.csv) <br />
+[License and information]( https://www.avoindata.fi/data/en/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902)
 
 ---
 
@@ -163,24 +163,23 @@ The above-mentioned requirements are given to submit this assignment. The below-
 To be able to set up and run the project needed to install it local computer and the required addresses to be used
 
 ```
-<ul>
-<li>install command: npm i</li>
-<li>running frontend: npm start</li>
 
-`addresses`
-<li>Home: http://localhost:3000/</li>
-<li>Journey: http://localhost:3000/journey</li>
-<li>Stations: http://localhost:3000/station</li>
-<li>Single Station: working on it</li>
-<li>cNav(Cycle route & duration): http://localhost:3000/navigation</li>
-<li>Contact: Working on it</li>
-</ul>
+`install command:` `npm i`
+`running frontend:` `npm start`
+
+<h4 align="left">addresses</h4>
+
+`Home:` `http://localhost:3000`
+`Journey:` `http://localhost:3000/journey`
+`Stations:` `http://localhost:3000/station`
+`Single Station:` `working on it`
+`cNav(Cycle route & duration):` `http://localhost:3000/navigation`
+`Contact:` `Working on it`
 
 ---
 
 <h3 align="left">Error-Handling: :gear:</h3>
 <p align="left">will write....</p>
-
 
 ----
 
@@ -201,14 +200,11 @@ To be able to set up and run the project needed to install it local computer and
 
 <h3 align="left">References: :paperclips:</h3>
 
-<ul>
-<li><a href="https://fullstackopen.com/en/" target="_blank">Full Stack Open 2022</a></li>
-<li><a href="https://docs.mapbox.com/help/tutorials/" target="_blank">mapbox | Docs</a></li>
-<li><a href="https://redux-toolkit.js.org/" target="_blank">Redux Toolkit</a></li>
-<li><a href="https://www.avoindata.fi/data/en_GB/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902" target="_blank">AVOINDATA.FI(HSL)</a></li>
-<li><a href="https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/" target="_blank">Digital Synopsis</a></li>
-<li><a href="" target="_blank">Will be added...</a></li>
-<li><a href="" target="_blank">Will be added...</a></li>
-</ul>
+[Full Stack Open 2022](https://fullstackopen.com/en/) <br />
+[Mapbox | Docs](https://docs.mapbox.com/help/tutorials/) <br />
+[Redux Toolkit](https://redux-toolkit.js.org/) <br />
+[AVOINDATA.FI(HSL](https://www.avoindata.fi/data/en_GB/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902) <br />
+[Digital Synopsis](https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/) <br />
+
 
 
