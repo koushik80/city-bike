@@ -87,7 +87,7 @@
 ---
 <h3 align="left" font="bold">My edition: :point_down:</h3>
 
-- [x] Cycle Route Using Mapbox
+- [x] Cycle Route with duration using Mapbox
 
 ---
 
@@ -118,7 +118,7 @@
 <li>Dotenv</li>
 </ul>
 
-<p align="left" font="bold">Development Environment</p>
+<h4 align="left" font="bold">Development Environment</h4>
 
 <ul>
 <li>Nodemon</li>
@@ -129,7 +129,7 @@
 ---
 
 <h3 align="left"> Prerequisites: :gear:</h3>
-<p align="left">To be able to set up and run the project needed to install in local computer and required addresses</p>
+<p align="left">To be able to set up and run the project needed to install it local computer and the required addresses to be used</p>
 <ul>
 <li>install command: npm i</li>
 <li>running frontend: npm start</li>

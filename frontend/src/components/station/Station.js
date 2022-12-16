@@ -20,11 +20,11 @@ const Station = () => {
                 fn(arg)
             }, delay);
         }
-    }
+    };
 
     const doSearch = (text) => {
         dispatch(search(text))
-    }
+    };
 
     const handleSearch = debounceHandler(doSearch, 500);
 
@@ -38,9 +38,9 @@ const Station = () => {
 
     let queryStr = `?page=${query?.page}`;
 
-    if(query?.search !== undefined) {
+    if (query?.search !== undefined) {
         queryStr = `?keyword=${query?.search}&page=${query?.page}`;
-    } else if(query?.search && query?.search) {
+    } else if (query?.search && query?.search) {
         queryStr = `?keyword=${query?.search}&page=${query?.page}`;
     } else {
         queryStr = `?page=${query?.page}`;
