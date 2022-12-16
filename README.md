@@ -59,28 +59,28 @@
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [&#x2610;] Station name
-- [] Station address
-- [] Total number of journeys starting from the station
-- [] Total number of journeys ending at the station
+ &#x2610; Station name
+ &#x2610; Station address
+ &#x2610; Total number of journeys starting from the station
+ &#x2610; Total number of journeys ending at the station
 
 <h4 align="left" font="bold">Additional</h4>
 
-- [] Station location on the map
-- [] The average distance of a journey starting from the station
-- [] The average distance of a journey ending at the station
-- [] Top 5 most popular return stations for journeys starting from the station
-- [] Top 5 most popular departure stations for journeys ending at the station
-- [] Ability to filter all the calculations per month
+ &#x2610; Station location on the map
+ &#x2610; The average distance of a journey starting from the station
+ &#x2610; The average distance of a journey ending at the station
+ &#x2610; Top 5 most popular return stations for journeys starting from the station
+ &#x2610; Top 5 most popular departure stations for journeys ending at the station
+ &#x2610; Ability to filter all the calculations per month
 
 ---
 
 <h3 align="left">Surprise points: :bust_in_silhouette:</h3>
 
-- [] Endpoints to store new journeys data or new bicycle stations
-- [] Running backend in Docker
+ &#x2610; Endpoints to store new journeys data or new bicycle stations
+ &#x2610; Running backend in Docker
 - [x] Running backend in Cloud
-- [] Implement E2E tests
+ &#x2610; Implement E2E tests
 - [x] Create UI for adding journeys or bicycle stations
 
 ---
