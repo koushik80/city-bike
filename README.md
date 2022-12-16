@@ -25,70 +25,70 @@
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [x] Import data from the CSV files to a database or in-memory storage
-- [x] Validate data before importing
-- [x] Don't import journeys that lasted for less than ten seconds
-- [x] Don't import journeys that covered distances shorter than 10 meters
+  - [x] Import data from the CSV files to a database or in-memory storage
+  - [x] Validate data before importing
+  - [x] Don't import journeys that lasted for less than ten seconds
+  - [x] Don't import journeys that covered distances shorter than 10 meters
 
 <h3 align="left" font="bold">Journey list view:</h3>
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [x] Journey list view
-- [x] For each journey show departure and return stations, covered distance in kilometers and duration in minutes
+  - [x] Journey list view
+         - [x] For each journey show departure and return stations, covered  distance in kilometers and duration in minutes
 
 <h4 align="left" font="bold">Additional</h4>
 
-- [x] Pagination
-- [x] Ordering per column
-- [x] Searching
-- [x] Filtering
+  - [x] Pagination
+  - [x] Ordering per column
+  - [x] Searching
+  - [x] Filtering
 
 <h3 align="left" font="bold">Station list:</h3>
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [x] List all the stations
+  - [x] List all the stations
 
 <h4 align="left" font="bold">Additional</h4>
 
-- [x] Pagination
-- [x] Searching
+  - [x] Pagination
+  - [x] Searching
 
 <h3 align="left" font="bold">Single station view:</h3>
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- &#x2610; Station name
-- &#x2610; Station address
-- &#x2610; Total number of journeys starting from the station
-- &#x2610; Total number of journeys ending at the station
+  - &#x2610; Station name
+  - &#x2610; Station address
+  - &#x2610; Total number of journeys starting from the station
+  - &#x2610; Total number of journeys ending at the station
 
 <h4 align="left" font="bold">Additional</h4>
 
-- &#x2610; Station location on the map
-- &#x2610; The average distance of a journey starting from the station
-- &#x2610; The average distance of a journey ending at the station
-- &#x2610; Top 5 most popular return stations for journeys starting from the station
-- &#x2610; Top 5 most popular departure stations for journeys ending at the station
-- &#x2610; Ability to filter all the calculations per month
+  - &#x2610; Station location on the map
+  - &#x2610; The average distance of a journey starting from the station
+  - &#x2610; The average distance of a journey ending at the station
+  - &#x2610; Top 5 most popular return stations for journeys starting from the station
+  - &#x2610; Top 5 most popular departure stations for journeys ending at the station
+  - &#x2610; Ability to filter all the calculations per month
 
 ---
 
 <h3 align="left">Surprise points: :bust_in_silhouette:</h3>
 
-- &#x2610; Endpoints to store new journeys data or new bicycle stations
-- &#x2610; Running backend in Docker
-- [x] Running backend in Cloud
-- &#x2610; Implement E2E tests
-- [x] Create UI for adding journeys or bicycle stations
+  - &#x2610; Endpoints to store new journeys data or new bicycle stations
+  - &#x2610; Running backend in Docker
+  - [x] Running backend in Cloud
+  - &#x2610; Implement E2E tests
+  - [x] Create UI for adding journeys or bicycle stations
 
 ---
 
 ---
 <h3 align="left" font="bold">My edition: :point_down:</h3>
 
-- [x] Cycle Route with duration using Mapbox
+  - [x] Cycle Route with duration using `Mapbox`
 
 ---
 
@@ -96,7 +96,7 @@
 
 <h4 align="left" font="bold">Frontend</h4>
 
-<p align="left">directory: [./frontend]</p>
+**directory: `./frontend`**
 
 <ul>
 <li>React</li>
@@ -112,7 +112,7 @@
 
 <h4 align="left" font="bold">Backend</h4>
 
-<p align="left">directory: [./backend]</p>
+**directory: `./backend`**
 
 <ul>
 <li>Node</li>
