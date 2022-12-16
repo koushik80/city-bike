@@ -22,13 +22,13 @@ During this application development, I decided to use Redux for state management
 ---
 `Provided Data to be used with this assignment to complete.`
 
-[City Bike Finland](https://dev.hsl.fi/citybikes/od-trips-2021/2021-05.csv)
-[City Bike Finland](https://dev.hsl.fi/citybikes/od-trips-2021/2021-06.csv)
-[City Bike Finland](https://dev.hsl.fi/citybikes/od-trips-2021/2021-07.csv)
+[City Bike Finland: data 1](https://dev.hsl.fi/citybikes/od-trips-2021/2021-05.csv) <br />
+[City Bike Finland: data 2](https://dev.hsl.fi/citybikes/od-trips-2021/2021-06.csv) <br />
+[City Bike Finland: data 3](https://dev.hsl.fi/citybikes/od-trips-2021/2021-07.csv)
 
 `Information about Helsinki Region Transport’s (HSL) city bicycle stations.`
 
-[Dataset:]( https://opendata.arcgis.com/datasets/726277c507ef4914b0aec3cbcfcbfafc_0.csv)
+[Dataset:]( https://opendata.arcgis.com/datasets/726277c507ef4914b0aec3cbcfcbfafc_0.csv) <br />
 [License and information:]( https://www.avoindata.fi/data/en/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902)
 
 ---
