@@ -25,7 +25,7 @@
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [:heavy_check_mark:] Import data from the CSV files to a database or in-memory storage
+- [x] Import data from the CSV files to a database or in-memory storage
 - [x] Validate data before importing
 - [x] Don't import journeys that lasted for less than ten seconds
 - [x] Don't import journeys that covered distances shorter than 10 meters
@@ -59,7 +59,7 @@
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [] Station name
+- [&#x2610;] Station name
 - [] Station address
 - [] Total number of journeys starting from the station
 - [] Total number of journeys ending at the station
