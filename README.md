@@ -19,9 +19,12 @@
 
 <h3 align="left">Functional Requirements: :bookmark:</h3>
 
-<p align="left" font="bold">The above-mentioned requirements are given to submit this assignment. The below-mentioned tick-marked requirements that I met.</p>
+```
+The above-mentioned requirements are given to submit this assignment. The below-mentioned tick-marked requirements that I met.
 
-<h3 align="left" font="bold">Data Import:</h3>
+```
+
+`Data Import:`
 
 <h4 align="left" font="bold">Recommended</h4>
 
@@ -30,7 +33,7 @@
   - [x] Don't import journeys that lasted for less than ten seconds
   - [x] Don't import journeys that covered distances shorter than 10 meters
 
-<h3 align="left" font="bold">Journey list view:</h3>
+`Journey list view:`
 
 <h4 align="left" font="bold">Recommended</h4>
 
@@ -44,7 +47,7 @@
   - [x] Searching
   - [x] Filtering
 
-<h3 align="left" font="bold">Station list:</h3>
+`Station list:`
 
 <h4 align="left" font="bold">Recommended</h4>
 
@@ -55,7 +58,7 @@
   - [x] Pagination
   - [x] Searching
 
-<h3 align="left" font="bold">Single station view:</h3>
+`Single station view:`
 
 <h4 align="left" font="bold">Recommended</h4>
 
@@ -75,7 +78,7 @@
 
 ---
 
-<h3 align="left">Surprise points: :bust_in_silhouette:</h3>
+`Surprise points: :bust_in_silhouette:`
 
   - &#x2610; Endpoints to store new journeys data or new bicycle stations
   - &#x2610; Running backend in Docker
@@ -86,7 +89,8 @@
 ---
 
 ---
-<h3 align="left" font="bold">My edition: :point_down:</h3>
+
+`My edition: :point_down:`
 
   - [x] Cycle Route with duration using `Mapbox`
 
@@ -96,7 +100,7 @@
 
 <h4 align="left" font="bold">Frontend</h4>
 
-**directory: `./frontend`**
+`./frontend`
 
 <ul>
 <li>React</li>
@@ -112,7 +116,7 @@
 
 <h4 align="left" font="bold">Backend</h4>
 
-**directory: `./backend`**
+ `./backend`
 
 <ul>
 <li>Node</li>
