@@ -25,7 +25,7 @@
 
 <h4 align="left" font="bold">Recommended</h4>
 
-- [x] Import data from the CSV files to a database or in-memory storage
+- [:heavy_check_mark:] Import data from the CSV files to a database or in-memory storage
 - [x] Validate data before importing
 - [x] Don't import journeys that lasted for less than ten seconds
 - [x] Don't import journeys that covered distances shorter than 10 meters
@@ -96,6 +96,8 @@
 
 <h4 align="left" font="bold">Frontend</h4>
 
+<p align="left">directory: [./frontend]</p>
+
 <ul>
 <li>React</li>
 <li>React Router</li>
@@ -109,6 +111,8 @@
 </ul>
 
 <h4 align="left" font="bold">Backend</h4>
+
+<p align="left">directory: [./backend]</p>
 
 <ul>
 <li>Node</li>
