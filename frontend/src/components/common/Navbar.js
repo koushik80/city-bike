@@ -1,7 +1,8 @@
 import { Container } from '@mui/material';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from './../../image/logo.jpg';
+import logo from './../../image/c6.gif';
+//import logo from './../../image/c1.gif';
 import './Navbar.scss';
 
 const Navbar = () => {
