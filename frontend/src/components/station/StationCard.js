@@ -6,7 +6,7 @@ import './StationCard.scss';
 const StationCard = ({ item }) => {
 
     return (
-        <Grid item xs={8} md={6} lg={3}>
+        <Grid item xs={12} md={6} lg={3}>
             <Link to={`/station/${item?._id}`}>
                 <Card className="station-card">
                     <Typography gutterBottom variant="body2" component="div">

@@ -4,6 +4,7 @@ const app = express();
 const dotenv = require("dotenv");
 const cors = require("cors");
 
+
 // dot environment config
 if (process.env.NODE_ENV !== "PRODUCTION") {
     dotenv.config({ path: 'backend/config/config.env' });
@@ -18,6 +19,7 @@ app.use(cors());
 // imported routers (internal imports)
 const journey = require("../routes/journey.routes");
 const station = require("../routes/station.routes");
+
 const { errorMiddleware } = require("../middleware/errorMiddleware");
 
 // middleware

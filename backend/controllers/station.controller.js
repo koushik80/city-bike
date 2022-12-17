@@ -39,7 +39,7 @@ exports.getStationDetails = catchAsyncError( async (req, res, next) => {
         station: {
             ...station._doc,
             totalNumberOfJourneyStartFromTheStation: allJourneyStartFromTheStation.length,
-            allJourneyEndFromTheStation: allJourneyEndFromTheStation.length,
+            totalNumberOfJourneyEndFromTheStation: allJourneyEndFromTheStation.length,
             allJourneyStartFromTheStation,
             allJourneyEndFromTheStation
         },

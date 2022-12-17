@@ -9,6 +9,7 @@ exports.getAllJourney = catchAsyncError(async (req, res, next) => {
 
     const apiFeature = new ApiFeatures(Journey.find(), req.query)
         .journeySearch()
+        .validJourney()
         .pagination(100);
     const journey = await apiFeature.query;
     const totalJourney = await Journey.countDocuments();

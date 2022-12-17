@@ -26,8 +26,10 @@ const Journey = () => {
     dispatch(journeySearch(text))
   };
 
+  // SEARCH FUNCTION
   const handleSearch = debounceHandler(doSearch, 500);
 
+  // PAGINATION FUNCTION & STATE
   const [page, setPage] = useState(1);
 
   const handleChange = (event, value) => {
@@ -37,6 +39,7 @@ const Journey = () => {
 
   const query = useSelector(state => state.filter);
 
+  // CREATED A QUERY STRING FOR SEARCH
   let queryStr = `?page=${query?.journeyPage}`;
 
   if (query?.journeySearch !== undefined) {

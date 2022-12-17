@@ -41,6 +41,17 @@ class ApiFeatures {
 
         return this;
     }
+
+    validJourney() {
+        const keyword = {
+            duration: {$gte: 10},
+            covered_distance: {$gte: 10}
+        }
+
+        this.query = this.query.find({...keyword});
+
+        return this;
+    }
 }
 
 module.exports = ApiFeatures;

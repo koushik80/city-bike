@@ -10,6 +10,8 @@
 
 ---
 
+<h1 align="center">Pre-assignment for Solita Dev Academy Finland 2023</h1>
+
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
 <p align="left">The assignment required creating a UI by using a backend service for displaying data from journeys made with city bikes in the Helsinki Capital Area. The backend is allowed to use a DB, or it can be memory-based. I preferred to use MongoDB as the memory-based will be quite slow and gave priority to building and running the application smoothly to display the data to the end-to-end users.
@@ -111,7 +113,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 `My edition:`
 
   - [x] Cycle Route with duration using `Mapbox`
-
+  - [x] Footer
 ---
 
 <h3 align="left">Technologies: :computer:</h3>
