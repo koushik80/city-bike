@@ -16,7 +16,18 @@
 
     li {
       margin-top: 8px;
-      font-weight: 400 !important;
+      font-weight: 400 !important; 
+    }
+
+    &--top-station-name {
+      display: flex;
+      gap: 12px;
+      overflow: auto;
+      li {
+        list-style: decimal;
+        margin-left: 1rem;
+        padding: 8px;
+      }
     }
   }
 }

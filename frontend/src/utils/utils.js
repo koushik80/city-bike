@@ -23,16 +23,28 @@ export const calculateCoveredDistance = (array = []) => {
 }
 
 // FIND TOP 5 MOST POPULAR RETURN STATION
-export const getMostPopularReturnStation = (array = [], stationName) => {
-    //return_station_name
-    // const topStation = array.filter((s) => s.return_station_name     )
-    // const popularStation = array.reduce((acc, item) =>
-    //       array.filter((v) => v === acc).length >=
-    //       array.filter((v) => v === item).length
-    //         ? acc
-    //         : item,
-    //     null
-    //   );
+export const getMostPopularReturnStation = (array = []) => {
+    const stations = Object.values(array.reduce((a, { return_station_name }) => {
+        a[return_station_name] = a[return_station_name] || { return_station_name, count: 0 };
+        a[return_station_name].count++;
+        return a;
+    }, Object.create(null)));
 
-    //   console.log("popularStation", popularStation)
+    const sortedArray = [...stations].sort((a, b) => b.count - a.count);
+
+    return sortedArray?.slice(0, 5);
+}
+
+// FIND TOP 5 MOST POPULAR STARTING STATION
+export const getMostPopularStartingStation = (array = []) => {
+
+    const stations = Object.values(array.reduce((a, { departure_station_name }) => {
+        a[departure_station_name] = a[departure_station_name] || { departure_station_name, count: 0 };
+        a[departure_station_name].count++;
+        return a;
+    }, Object.create(null)));
+
+    const sortedArray = [...stations].sort((a, b) => b.count - a.count);
+
+    return sortedArray?.slice(0, 5);
 }

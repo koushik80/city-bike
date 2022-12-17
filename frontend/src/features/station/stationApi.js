@@ -11,7 +11,7 @@ export const stationApi = apiSlice.injectEndpoints({
             query: (url) => `/station/all${url}`
         }),
         getStationDetails: builder.query({
-            query: (id) => `/stations/${id}`
+            query: (id) => `/station/${id}`
         }),
         addStation: builder.mutation({
             query: ({data, url}) => ({

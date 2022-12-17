@@ -82,18 +82,18 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 <h4 align="left" font="bold">Recommended(under development)</h4>
 
-  - &#x2610; Station name
-  - &#x2610; Station address
-  - &#x2610; Total number of journeys starting from the station
-  - &#x2610; Total number of journeys ending at the station
+  - [x] Station name
+  - [x] Station address
+  - [x] Total number of journeys starting from the station
+  - [x] Total number of journeys ending at the station
 
 <h4 align="left" font="bold">Additional(under development)</h4>
 
   - &#x2610; Station location on the map
-  - &#x2610; The average distance of a journey starting from the station
-  - &#x2610; The average distance of a journey ending at the station
-  - &#x2610; Top 5 most popular return stations for journeys starting from the station
-  - &#x2610; Top 5 most popular departure stations for journeys ending at the station
+  - [x] The average distance of a journey starting from the station
+  - [x] The average distance of a journey ending at the station
+  - [x] Top 5 most popular return stations for journeys starting from the station
+  - [x] Top 5 most popular departure stations for journeys ending at the station
   - &#x2610; Ability to filter all the calculations per month
 
 ---
@@ -113,6 +113,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 `My edition:`
 
   - [x] Cycle Route with duration using `Mapbox`
+  - [x] Contact form using `formcarry`
   - [x] Footer
 ---
 
@@ -133,6 +134,9 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <li>Styled Components</li>
 <li>Material UI</li>
 <li>Mapbox GL</li>
+<li>formcarry</li>
+<li>formik</li>
+<li>yup</li>
 
 </ul>
 
@@ -148,6 +152,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <li>Cors</li>
 <li>Mongoose</li>
 <li>Dotenv</li>
+<li>validator</li>
 </ul>
 
 <h4 align="left" font="bold">Development Environment</h4>
@@ -175,9 +180,9 @@ To be able to set up and run the project needed to install it local computer and
 `Home:` `http://localhost:3000`  <br />
 `Journey:` `http://localhost:3000/journey`  <br />
 `Stations:` `http://localhost:3000/station`  <br />
-`Single Station:` `working on it`  <br />
+`Single Station:` `http://localhost:3000/station/:id`  <br />
 `cNav(Cycle route & duration):` `http://localhost:3000/navigation` <br />
-`Contact:` `Working on it`
+`Contact:` `http://localhost:3000/contact`
 
 ---
 
@@ -208,6 +213,7 @@ To be able to set up and run the project needed to install it local computer and
 [Redux Toolkit](https://redux-toolkit.js.org/) <br />
 [AVOINDATA.FI(HSL](https://www.avoindata.fi/data/en_GB/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902) <br />
 [Digital Synopsis](https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/) <br />
+[formcarry](https://formcarry.com/) <br />
 
 
 
