@@ -100,7 +100,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 `Surprise points:(under development)`
 
-  - &#x2610; Endpoints to store new journeys data or new bicycle stations
+  - [x] Endpoints to store new journeys data or new bicycle stations
   - &#x2610; Running backend in Docker
   - [x] Running backend in Cloud
   - &#x2610; Implement E2E tests
@@ -123,8 +123,6 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 `./frontend`
 
-`run: npm start`
-
 <ul>
 <li>React</li>
 <li>React Router</li>
@@ -144,15 +142,12 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
  `./backend`
 
- `run in development environment with nodemon: npm run dev`
-
 <ul>
 <li>Node</li>
 <li>Express</li>
 <li>Cors</li>
 <li>Mongoose</li>
 <li>Dotenv</li>
-<li>validator</li>
 </ul>
 
 <h4 align="left" font="bold">Development Environment</h4>
@@ -171,9 +166,23 @@ The above-mentioned requirements are given to submit this assignment. The below-
 To be able to set up and run the project needed to install it local computer and the required addresses to be used
 
 ```
+<p align="left">Clone this repository</p>
 
-`install command:` `npm i`  <br />
-`running frontend:` `npm start`
+`https://github.com/koushik80/city-bike`
+
+<p align="left">Change the directory</p>
+
+`cd frontend`
+`cd backend`
+
+<p align="left">Install all dependencies</p>
+
+`npm i`
+
+<p align="left">Run the application</p>
+
+`running frontend:` `npm start` <br />
+`running backend in development environment with nodemon: npm run dev` <br />
 
 <h4 align="left">addresses</h4>
 

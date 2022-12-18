@@ -8,7 +8,6 @@
 <li>Cors</li>
 <li>Mongoose</li>
 <li>Dotenv</li>
-<li>validator</li>
 </ul>
 
 <h4 align="left" font="bold">In the backend directory, you can run:</h4>

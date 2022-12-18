@@ -74,6 +74,9 @@ const Footer = () => {
                     </Grid>
                 </Grid>
             </Container>
+            <div className="footer--copy-right-text">
+                <b>All rights reserved © koushik@devHuß {new Date().getFullYear()}</b>
+            </div>
         </footer>
     );
 };
