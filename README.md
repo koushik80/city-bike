@@ -89,7 +89,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 <h4 align="left" font="bold">Additional(under development)</h4>
 
-  - &#x2610; Station location on the map
+  - [x] Station location on the map
   - [x] The average distance of a journey starting from the station
   - [x] The average distance of a journey ending at the station
   - [x] Top 5 most popular return stations for journeys starting from the station

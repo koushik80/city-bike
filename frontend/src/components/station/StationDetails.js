@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useGetStationDetailsQuery } from '../../features/station/stationApi';
 import { calculateCoveredDistance, getMostPopularReturnStation, getMostPopularStartingStation } from '../../utils/utils';
 import StationDetailsLoading from '../loader/StationDetailsLoading';
+import GoogleMap from './GoogleMap';
 import './StationDetails.scss';
 
 const StationDetails = () => {
@@ -19,8 +20,6 @@ const StationDetails = () => {
     //allJourneyEndFromTheStation
     const getMostPopularReturnStationName = getMostPopularReturnStation(data?.station?.allJourneyStartFromTheStation);
     const getMostPopularStartingStationName = getMostPopularStartingStation(data?.station?.allJourneyEndFromTheStation);
-    console.log(getMostPopularReturnStationName, getMostPopularStartingStationName)
-
 
     let content;
 
@@ -55,7 +54,7 @@ const StationDetails = () => {
                             <ul className='station-details-page--info-2--top-station-name'>
                                 {
                                     getMostPopularReturnStationName?.map((s, i) => (
-                                        <li key={i}>{s?.return_station_name}</li>
+                                        <li key={s?.return_station_name}>{s?.return_station_name}</li>
                                     ))
                                 }
                             </ul>
@@ -64,12 +63,18 @@ const StationDetails = () => {
                             <ul className='station-details-page--info-2--top-station-name'>
                                 {
                                     getMostPopularStartingStationName?.map((s, i) => (
-                                        <li k={i}>{s?.departure_station_name}</li>
+                                        <li k={s?.departure_station_name}>{s?.departure_station_name}</li>
                                     ))
                                 }
                             </ul>
                         </li>
                     </ul>
+                </Grid>
+                <Grid item xs={12} md={12} lg={12}>
+                {/* <iframe
+                        className="gmap_iframe" frameborder="0" title={name} marginheight="0" marginwidth="0"
+                        src={mapURL}></iframe> */}
+                    <GoogleMap location={adress} />
                 </Grid>
             </Grid>
         )
