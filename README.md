@@ -114,6 +114,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
   - [x] Cycle Route with duration using `Mapbox`
   - [x] Contact form using `formcarry`
+  - [x] Header
   - [x] Footer
 ---
 

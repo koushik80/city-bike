@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
-import Station from '../components/station/Station';
+import Header from '../components/common/Header';
+
 
 const Home = () => {
   return (
     <Fragment>
-      <Station />
+      <Header />
     </Fragment>
   );
 };

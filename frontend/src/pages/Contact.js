@@ -22,7 +22,6 @@ const options = [
     { label: "Quality Assurance Tester", value: "quality_assurance_tester" },
 ]
 
-
 //validation schema
 let validationSchema = Yup.object().shape({
     firstName: Yup.string().required("Required"),
