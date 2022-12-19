@@ -3,6 +3,7 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 import './Navigation.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
+
 mapboxgl.accessToken = process.env.REACT_APP_ACCESS_TOKEN;
 
 const Navigation = () => {
@@ -48,7 +49,6 @@ const Navigation = () => {
       })
     );
   }
-
   const route = () => {
     locate();
     map.current.on('load', () => {

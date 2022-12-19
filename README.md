@@ -205,6 +205,8 @@ To be able to set up and run the project needed to install it local computer and
 <h3 align="left">Project Gallery: :mountain_biking_man:</h3>
 
 <div>
+<img width="1698" alt="Screenshot 2022-12-19 at 9 47 05 PM" src="https://user-images.githubusercontent.com/89943976/208507736-e1154212-2311-4807-be03-168a5ad3d208.png">
+<img width="1698" alt="Screenshot 2022-12-19 at 9 44 45 PM" src="https://user-images.githubusercontent.com/89943976/208507419-21dd3c5f-9714-45b1-91d4-c224faf917bd.png">
 <img width="1688" alt="Screenshot 2022-12-16 at 2 11 33 AM" src="https://user-images.githubusercontent.com/89943976/207993202-ce528140-909e-4af2-bb16-378bf933d206.png">
 <img width="1688" alt="Screenshot 2022-12-16 at 2 13 27 AM" src="https://user-images.githubusercontent.com/89943976/207993206-443c42ad-b869-4a27-9fe9-1f2a259503d7.png">
 <img width="1688" alt="Screenshot 2022-12-16 at 2 13 09 AM" src="https://user-images.githubusercontent.com/89943976/207993210-aae3c84d-3d3f-4564-b56c-2bab239d9497.png">
