@@ -6,6 +6,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 mapboxgl.accessToken = process.env.REACT_APP_ACCESS_TOKEN;
 
+
 const Navigation = () => {
   const mapContainer = useRef(null);  //MapBox Container
   const map = useRef(null);  //MapBox rendered element
@@ -49,6 +50,7 @@ const Navigation = () => {
       })
     );
   }
+
   const route = () => {
     locate();
     map.current.on('load', () => {

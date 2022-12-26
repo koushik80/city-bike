@@ -104,6 +104,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
   - &#x2610; Running backend in Docker
   - [x] Running backend in Cloud
   - &#x2610; Implement E2E tests
+  - [x] Added unit tests instead of E2E tests
   - [x] Create UI for adding journeys or bicycle stations
 
 ---
@@ -157,6 +158,14 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <li>Nodemon</li>
 <li>VS Code</li>
 <li>Postman</li>
+</ul>
+
+<h4 align="left" font="bold">Testing</h4>
+
+<ul>
+<li>chai</li>
+<li>chai-http</li>
+<li>mocha</li>
 </ul>
 
 ---

@@ -2,7 +2,9 @@
     margin-top: 2rem;
     background-color: #5670ff;
     padding: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4.5rem;
+    bottom: 0;
+    position: sticky;
 
     ul {
         text-align: center;
@@ -13,6 +15,7 @@
     }
 
     &--copy-right-text {
+        font-size: 12px;
         text-align: center;
         margin-top: 2rem;
         color: white;
