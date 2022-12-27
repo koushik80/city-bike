@@ -16,7 +16,7 @@
 
 <p align="left">The assignment required creating a UI by using a backend service for displaying data from journeys made with city bikes in the Helsinki Capital Area. The backend is allowed to use a DB, or it can be memory-based. I preferred to use MongoDB as the memory-based will be quite slow and gave priority to building and running the application smoothly to display the data to the end-to-end users.
 
-During this application development, I decided to use Redux for state management, studied it's documentation deeply and implemented it. I observed how it behaves consistently across client, server, and native environments. The state of my application is kept in a store, and each component can access any state that it needs from this store. I used Redux with my React application to maintain and update data across your applications for multiple components to share, all while remaining independent of the components.
+During this application development, I decided to use Redux for state management, studied it's documentation deeply and implemented it. I observed how it behaves consistently across client, server, and native environments. The state of my application is kept in a store, and each component can access any state that it needs from this store. I used Redux with my React application to maintain and update data across application for multiple components to share, all while remaining independent of the components.
 </p>
 
 ---
@@ -124,6 +124,8 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <h4 align="left" font="bold">Frontend</h4>
 
 `./frontend`
+
+`installation command react app:` `npx create-react-app frontend --template redux`
 
 <ul>
 <li>React</li>
