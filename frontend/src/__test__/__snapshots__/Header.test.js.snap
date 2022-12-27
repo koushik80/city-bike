@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Header should render correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1fyyp8j-MuiGrid-root"
+      >
+        <div
+          className="header--content"
+        >
+          <h1>
+            Helsinki City-Bike
+          </h1>
+          <p>
+            Welcome to use city bikes! City bikes are available in Helsinki and Espoo from the beginning of April to the end of October. Enjoy your ride!
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1fyyp8j-MuiGrid-root"
+      >
+        <div
+          className="header--image"
+        >
+          <img
+            alt=""
+            src="c2.gif"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;

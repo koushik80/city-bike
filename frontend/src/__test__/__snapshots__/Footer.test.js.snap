@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 css-72mr71-MuiGrid-root"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Pricing
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Blog
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 css-72mr71-MuiGrid-root"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              FAQ
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Help
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Feedback
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3 css-72mr71-MuiGrid-root"
+      >
+        <ul>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Terms
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Privacy
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+              onClick={[Function]}
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer--copy-right-text"
+  >
+    <b>
+      All rights reserved © koushik@devHuß 
+      2022
+    </b>
+  </div>
+</footer>
+`;

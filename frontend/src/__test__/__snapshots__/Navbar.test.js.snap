@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Navbar should render correctly 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar--logo"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          src="c6.gif"
+        />
+      </a>
+      <div
+        className="wrapper"
+      >
+        <h1>
+          Ci†yßîke
+        </h1>
+      </div>
+    </div>
+    <div
+      className="navbar--link-list"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/journey"
+            onClick={[Function]}
+          >
+            Journey
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/station"
+            onClick={[Function]}
+          >
+            Stations
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
+            href="/contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;

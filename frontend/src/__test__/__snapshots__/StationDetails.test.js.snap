@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`station details page test suite should render station details 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root station-details-page css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      className="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+    >
+      <div
+        className="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+        >
+          Station details
+        </span>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-wkfkmr-MuiGrid-root"
+      >
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-kdp3n0-MuiGrid-root"
+      >
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+        <span
+          className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1kzild6-MuiSkeleton-root"
+          style={
+            Object {
+              "height": undefined,
+              "width": undefined,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

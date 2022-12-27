@@ -104,7 +104,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
   - &#x2610; Running backend in Docker
   - [x] Running backend in Cloud
   - &#x2610; Implement E2E tests
-  - [x] Added unit tests instead of E2E tests
+  - [x] Added test case instead of E2E tests
   - [x] Create UI for adding journeys or bicycle stations
 
 ---
@@ -166,6 +166,9 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <li>chai</li>
 <li>chai-http</li>
 <li>mocha</li>
+<li>enzyme</li>
+<li>enzyme-adapter-react-16</li>
+<li>react-test-renderer</li>
 </ul>
 
 ---
@@ -182,7 +185,7 @@ To be able to set up and run the project needed to install it local computer and
 
 <p align="left">Change the directory</p>
 
-`cd frontend`
+`cd frontend` <br />
 `cd backend`
 
 <p align="left">Install all dependencies</p>

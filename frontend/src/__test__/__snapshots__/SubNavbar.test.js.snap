@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home SubNav should render correctly 1`] = `
+<header
+  className="header-area"
+>
+  <div
+    className="header-top"
+  >
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="top_nav_area"
+      >
+        <div
+          className="col-lg-6"
+        >
+          <div
+            className="header_top_left_side"
+          >
+            <ul>
+              <li>
+                <a
+                  href="https://www.hsl.fi/en/citybikes/helsinki/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  HSL
+                </a>
+              </li>
+              <li>
+                <a
+                  className=""
+                  href="/map"
+                  onClick={[Function]}
+                >
+                  Map
+                </a>
+              </li>
+              <li>
+                <a
+                  className=""
+                  href="/navigation"
+                  onClick={[Function]}
+                >
+                  cNav
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="col-lg-6"
+        >
+          <div
+            className="header-right-social text-center text-sm-right"
+          >
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-facebook-f"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/koushik80/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-github"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-linkedin-in"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-youtube"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;
