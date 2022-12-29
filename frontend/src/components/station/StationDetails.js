@@ -72,7 +72,7 @@ const StationDetails = () => {
                 </Grid>
                 <Grid item xs={12} md={12} lg={12}>
                 {/* <iframe
-                        className="gmap_iframe" frameborder="0" title={name} marginheight="0" marginwidth="0"
+                        className="gmap_iframe" frameborder="0" title={name} marginHeight="0" marginWidth="0"
                         src={mapURL}></iframe> */}
                     <GoogleMap location={adress} />
                 </Grid>

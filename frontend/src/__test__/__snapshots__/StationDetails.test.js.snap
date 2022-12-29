@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`station details page test suite should render station details 1`] = `
+exports[`Station details page test suite should render station details 1`] = `
 <div
   className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
 >

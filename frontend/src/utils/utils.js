@@ -4,7 +4,7 @@ export const meterToKm = (meter) => {
     return km;
 };
 
-// SECONDS TO HOURS: MINUTES: SECONDS
+// SECONDS TO HOURS MINUTES SECONDS
 export const secondsToHours = (seconds) => {
     const date = new Date(null);
     date.setSeconds(seconds);
@@ -37,7 +37,7 @@ export const getMostPopularReturnStation = (array = []) => {
 
 // FIND TOP 5 MOST POPULAR STARTING STATION
 export const getMostPopularStartingStation = (array = []) => {
-
+    console.log("array", array)
     const stations = Object.values(array.reduce((a, { departure_station_name }) => {
         a[departure_station_name] = a[departure_station_name] || { departure_station_name, count: 0 };
         a[departure_station_name].count++;
