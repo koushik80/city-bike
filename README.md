@@ -152,6 +152,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <li>Cors</li>
 <li>Mongoose</li>
 <li>Dotenv</li>
+<li>path</li>
 </ul>
 
 <h4 align="left" font="bold">Development Environment</h4>
