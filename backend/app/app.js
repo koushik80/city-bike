@@ -28,6 +28,7 @@ app.use("/api/journey", journey);
 app.use("/api/station", station);
 
 
+//Development
 /*
 app.get('/', (req, res) => {
     res.status(200).json({
@@ -36,6 +37,7 @@ app.get('/', (req, res) => {
 });
 */
 
+//Production
 const __dirname1 = path.resolve();
 
 if (process.env.NODE_ENV === "PRODUCTION") {
