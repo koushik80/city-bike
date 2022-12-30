@@ -1,11 +1,11 @@
 # Hi there<img src="https://media.giphy.com/media/l4S95aLS28TNZDlzbX/giphy.gif" width="50" height="50"/>! Here goes below my Project information
 
 <div>
-<h4 align="center"><a href="">Ci†yßîke :biking_man:</a></h4>
+<h4 align="center"><a href="https://city-bike.onrender.com">Ci†yßîke :biking_man:</a></h4>
 </div>
 
 <div>
-<h4 align="center"><a href="">Note: I started working on this app.... README will be updated during development and the app will be linked-up after deployment.</a></h4>
+<h4 align="center"><a href="">Note: This app is underdevelopment.</a></h4>
 </div>
 
 ---
