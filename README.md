@@ -5,7 +5,7 @@
 </div>
 
 <div>
-<h4 align="center"><a href="">Note: This app is underdevelopment.</a></h4>
+<h4 align="center"><a href="">Note: This app is underdevelopment...</a></h4>
 </div>
 
 ---
@@ -144,7 +144,8 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 <h4 align="left" font="bold">Backend</h4>
 
- `./backend`
+ `./backend` <br />
+`API documentation:` `https://documenter.getpostman.com/view/16481716/2s8Z6yYZD9`
 
 <ul>
 <li>Node</li>
@@ -211,10 +212,8 @@ To be able to set up and run the project needed to install it local computer and
 
 ---
 
-<h3 align="left">Error-Handling: :gear:</h3>
-<p align="left">will write....</p>
 
-----
+---
 
 <div>
 <h3 align="left">Project Gallery: :mountain_biking_man:</h3>
