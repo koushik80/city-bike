@@ -4,7 +4,7 @@
 
 <ul>
 <li>React</li>
-<li>React Router</li>
+<li>React Router DOM</li>
 <li>React Redux</li>
 <li>RTK Query(Redux JS Toolkit)</li>
 <li>SASS</li>
