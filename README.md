@@ -226,6 +226,7 @@ To be able to set up and run the project needed to install it local computer and
 <img width="1688" alt="Screenshot 2022-12-16 at 2 13 09 AM" src="https://user-images.githubusercontent.com/89943976/207993210-aae3c84d-3d3f-4564-b56c-2bab239d9497.png">
 <img width="1690" alt="Screenshot 2022-12-16 at 4 44 36 PM" src="https://user-images.githubusercontent.com/89943976/208123375-b679258f-0a52-4269-99ea-fc6486bc5092.png">
 <img width="1690" alt="Screenshot 2022-12-16 at 4 44 55 PM" src="https://user-images.githubusercontent.com/89943976/208123382-6973de01-6a72-47af-965a-f58c2eadd0aa.png">
+<img width="1718" alt="Screenshot 2023-01-01 at 12 47 53 PM" src="https://user-images.githubusercontent.com/89943976/210168051-d51bb9db-c7a7-4cd2-9efc-6c18a83d6d20.png">
 <img width="1216" alt="Screenshot 2022-12-27 at 2 39 01 PM" src="https://user-images.githubusercontent.com/89943976/209668318-718199b7-389b-4719-8a6d-625dfafe782b.png">
 <img width="1216" alt="Screenshot 2022-12-27 at 2 41 41 PM" src="https://user-images.githubusercontent.com/89943976/209668322-8073c733-17bb-45b2-b1d9-0210a4570de4.png">
 </div>
