@@ -20,7 +20,6 @@ During this application development, I decided to use Redux for state management
 </p>
 
 ---
-<br />
 
 ---
 `Provided Data to be used with this assignment to complete.`
