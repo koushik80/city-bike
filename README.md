@@ -116,6 +116,9 @@ The above-mentioned requirements are given to submit this assignment. The below-
   - [x] Contact form using `formcarry`
   - [x] Header
   - [x] Footer
+
+<p align="left">N.B: Map & cNav[click any place in the map to display the trp duration]</p>
+
 ---
 
 <h3 align="left">Technologies: :computer:</h3>
@@ -210,7 +213,6 @@ To be able to set up and run the project needed to install it local computer and
 `Contact:` `http://localhost:3000/contact`
 
 ---
-
 
 ---
 
