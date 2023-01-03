@@ -117,7 +117,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
   - [x] Header
   - [x] Footer
 
-<p align="left">N.B: Map & cNav[click any place in the map to display the trp duration]</p>
+<p align="left">N.B: Map & cNav[click any place in the map to display the trip duration]</p>
 
 ---
 
