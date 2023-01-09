@@ -1,16 +1,16 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
 
-};
+}
 
 // CREATED JOURNEY SLICE
 const journeySlice = createSlice({
-    name: "journey",
-    initialState,
-    reducers: {
+  name: 'journey',
+  initialState,
+  reducers: {
 
-    }
-});
+  }
+})
 
-export default journeySlice.reducer;
+export default journeySlice.reducer

@@ -1,8 +1,8 @@
 // https://redux-toolkit.js.org/rtk-query/overview
 
-import { configureStore } from '@reduxjs/toolkit';
-import apiSlice from '../features/api/apiSlice';
-import filterReducer from '../features/filter/filterSlice';
+import { configureStore } from '@reduxjs/toolkit'
+import apiSlice from '../features/api/apiSlice'
+import filterReducer from '../features/filter/filterSlice'
 
 export const store = configureStore({
   reducer: {
@@ -11,4 +11,4 @@ export const store = configureStore({
   },
   devTools: process.env.NODE_ENV !== 'production',
   middleware: (getDefaultMiddlewares) => getDefaultMiddlewares().concat(apiSlice.middleware)
-});
+})

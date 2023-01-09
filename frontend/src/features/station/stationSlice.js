@@ -1,16 +1,16 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
 
-};
+}
 
 // CREATED STATION SLICE
 const stationSlice = createSlice({
-    name: "station",
-    initialState,
-    reducers: {
+  name: 'station',
+  initialState,
+  reducers: {
 
-    }
-});
+  }
+})
 
-export default stationSlice.reducer;
+export default stationSlice.reducer
