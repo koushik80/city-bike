@@ -79,14 +79,14 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 `Single station view:`
 
-<h4 align="left" font="bold">Recommended(under development)</h4>
+<h4 align="left" font="bold">Recommended</h4>
 
   - [x] Station name
   - [x] Station address
   - [x] Total number of journeys starting from the station
   - [x] Total number of journeys ending at the station
 
-<h4 align="left" font="bold">Additional(under development)</h4>
+<h4 align="left" font="bold">Additional</h4>
 
   - [x] Station location on the map
   - [x] The average distance of a journey starting from the station
@@ -97,7 +97,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 
 ---
 
-`Surprise points:(under development)`
+`Surprise points:`
 
   - [x] Endpoints to store new journeys data or new bicycle stations
   - &#x2610; Running backend in Docker
@@ -196,7 +196,7 @@ To be able to set up and run the project needed to install it local computer and
 
 <p align="left">Install all dependencies</p>
 
-`npm i`
+`npm install`
 
 <p align="left">Run the application</p>
 
