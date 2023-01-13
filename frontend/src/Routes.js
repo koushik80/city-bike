@@ -10,6 +10,7 @@ const Journey = lazy(() => import('./pages/Journey'));
 const Station = lazy(() => import('./components/station/Station'));
 const StationDetails = lazy(() => import('./components/station/StationDetails'));
 const Contact = lazy(() => import('./pages/Contact'));
+const Travelling = lazy(() => import('./pages/Travelling'));
 const Map = lazy(() => import('./components/map/Map'));
 const Navigation = lazy(() => import('./components/navigation/Navigation'));
 
@@ -25,6 +26,7 @@ const Routes = () => {
                 <Route path="/station" element={<Station />} />
                 <Route path="/station/:id" element={<StationDetails />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/travelling" element={<Travelling />} />
                 <Route path="/map" element={<Map />} />
                 <Route path="/navigation" element={<Navigation />} />
               </AllRoutes>

@@ -14,10 +14,10 @@ const Footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">Pricing</Link>
+                <Link to="/travelling">Pricing</Link>
               </li>
               <li>
-                <Link to="/">Blog</Link>
+                <Link to="/travelling">Travelling</Link>
               </li>
             </ul>
           </Grid>

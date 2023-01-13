@@ -103,7 +103,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
   - &#x2610; Running backend in Docker
   - [x] Running backend in Cloud
   - &#x2610; Implement E2E tests
-  - [x] Added test case instead of E2E tests
+  - [x] Added snapshots and integration tests instead of E2E tests
   - [x] Create UI for adding journeys or bicycle stations
 
 ---
@@ -113,6 +113,7 @@ The above-mentioned requirements are given to submit this assignment. The below-
 `My edition:`
 
   - [x] Cycle Route with duration using `Mapbox`
+  - [x] Travelling
   - [x] Contact form using `formcarry`
   - [x] Header
   - [x] Footer
@@ -245,6 +246,7 @@ To be able to set up and run the project needed to install it local computer and
 [AVOINDATA.FI(HSL](https://www.avoindata.fi/data/en_GB/dataset/hsl-n-kaupunkipyoraasemat/resource/a23eef3a-cc40-4608-8aa2-c730d17e8902) <br />
 [Digital Synopsis](https://digitalsynopsis.com/design/beautiful-color-gradient-palettes/) <br />
 [formcarry](https://formcarry.com/) <br />
+[HSL](https://www.hsl.fi/) <br />
 
 
 

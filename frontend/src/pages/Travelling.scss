@@ -1,0 +1,121 @@
+.travelling-page {
+  &--title {
+    padding-top: 70px;
+    padding-bottom: 74px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.17;
+  }
+
+  &--information {
+    padding: 100px 0;
+    background-color: #f2f5f7;
+
+    h1 {
+      margin-bottom: 56px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: -0.8px;
+      line-height: 1.2;
+    }
+
+    &--info-card {
+      text-align: center;
+      padding: 30px 15px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      color: #333;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      &:hover {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  &--readmore {
+    padding: 70px 50px 80px;
+    text-align: center;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 15px;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: -0.8px;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 16px;
+      letter-spacing: -0.3px;
+      line-height: 1.5;
+    }
+
+    button {
+      margin-top: 25px;
+      min-width: 170px;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: -0.4px;
+      line-height: 1.5;
+      background-color: #fff;
+      color: #6579e8;
+      border-radius: 5000px;
+      border: 1px solid #888;
+      font-weight: bold;
+      padding: 7px 25px;
+    }
+
+    &:first-child {
+      border-left: 1px solid #aaaaab;
+    }
+  }
+
+  &--tips-item {
+    padding: 0;
+    margin-top: 50px;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+
+      img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+
+    &--list {
+      ul {
+        margin-top: 25px;
+        width: 90%;
+      }
+
+      li {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 13px;
+        padding-bottom: 13px;
+        border-bottom: 1px solid #ccc;
+        font-size: 18px;
+        letter-spacing: -.3px;
+        color: #6579e8;
+        font-weight: bold;
+      }
+    }
+  }
+}
