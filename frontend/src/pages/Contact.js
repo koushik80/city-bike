@@ -76,7 +76,9 @@ const Contact = () => {
       <Grid container justify="center" spacing={1}>
         <Grid item xs={12} md={12} lg={12}>
           <Card>
-            <CardHeader title="Contact Form"></CardHeader>
+            <div className="page-title">
+              <CardHeader title="Contact Form"></CardHeader>
+            </div>
             <Formik
               initialValues={initialValues}
               validationSchema={validationSchema}
@@ -177,7 +179,7 @@ const Contact = () => {
                         color="primary"
                         type="Submit"
                       >
-                                                Submit
+                        Submit
                       </Button>
                     </CardActions>
                   </Form>

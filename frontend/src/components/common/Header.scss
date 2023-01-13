@@ -15,8 +15,13 @@
     justify-content: center;
 }
 
+h1 {
+    color: #C73866;
+}
+
 .header--image {
     img {
         width: 100%;
-    }
+        border-radius: 50%;
+}
 }

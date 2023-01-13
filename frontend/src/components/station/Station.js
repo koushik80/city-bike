@@ -84,7 +84,7 @@ const Station = () => {
                     </form>
                 </div>
                 <Stack direction="row" alignItems="center" justifyContent="center" mb={1}>
-                   <Typography variant="h5" gutterBottom>
+                   <Typography variant="h5" fontWeight="bold" color="#C73866" gutterBottom>
                        Stations
                    </Typography>
                 </Stack>

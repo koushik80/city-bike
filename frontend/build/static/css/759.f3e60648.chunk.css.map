@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/759.f3e60648.chunk.css","mappings":"AAAA,cAEI,mBAAoB,CACvB,YAGG,aAAc,CACd,eAAgB","sources":["pages/Contact.scss"],"sourcesContent":[".contact-page {\n    margin: 2rem 0rem;\n    margin-bottom: 13rem;\n}\n\n.page-title {\n    color: #C73866;\n    font-weight: 500;\n}"],"names":[],"sourceRoot":""}

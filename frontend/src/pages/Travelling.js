@@ -151,7 +151,7 @@ const Travelling = () => {
 
             <Container>
                 <div className="travelling-page--tips">
-                    <h1>Tips for travel</h1>
+                    <h1 className="travelling-page--heading">Tips for travel</h1>
 
                     <Grid container rowSpacing={3}>
                         {
@@ -184,7 +184,7 @@ const Travelling = () => {
                     <div className='travelling-page--readmore'>
                         <img src={cycleImg} alt="" />
                         <h3>Cycling</h3>
-                        <p>
+                        <p className="text">
                             Cycling and public transport go well together. You can leave your bike at a Park & Ride or take it with you on a commuter train, the metro or on the ferry.
                         </p>
                         <button><a href="https://www.hsl.fi/en/travelling/cycling" target="_blank" rel="noopener noreferrer">Read more</a></button>

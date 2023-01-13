@@ -3,13 +3,18 @@
     padding-top: 70px;
     padding-bottom: 74px;
     text-align: center;
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 500;
     line-height: 1.17;
+    color: #C73866;
+  }
+  &--heading {
+    margin-top: 75px;
+    color: #6579e8;
   }
 
   &--information {
-    padding: 100px 0;
+    padding: 70px 0;
     background-color: #f2f5f7;
 
     h1 {
@@ -19,6 +24,11 @@
       font-weight: 500;
       letter-spacing: -0.8px;
       line-height: 1.2;
+      color: #6579e8;
+    }
+
+    h2 {
+       color: #6579e8;
     }
 
     &--info-card {
@@ -43,6 +53,7 @@
   &--readmore {
     padding: 70px 50px 80px;
     text-align: center;
+    color: #C73866;
 
     img {
       width: 60px;
@@ -62,6 +73,7 @@
       font-size: 16px;
       letter-spacing: -0.3px;
       line-height: 1.5;
+      color: black;
     }
 
     button {
@@ -87,6 +99,7 @@
   &--tips-item {
     padding: 0;
     margin-top: 50px;
+    color: #C73866;
 
     div {
       display: flex;
