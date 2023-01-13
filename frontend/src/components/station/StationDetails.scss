@@ -1,9 +1,12 @@
 .station-details-page {
   padding: 1rem 2rem;
   margin: 2rem 0rem;
+  color: #C73866 !important;
+  font-weight: bold;
 
   &--info {
     font-size: 18px;
+    color: black;
 
     li {
       margin-top: 8px;
@@ -13,6 +16,7 @@
 
   &--info-2 {
     font-size: 18px;
+    color: black;
 
     li {
       margin-top: 8px;
