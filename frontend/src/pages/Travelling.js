@@ -11,6 +11,7 @@ import icon2 from './../image/people.png';
 import trackImg from './../image/track.png';
 import './Travelling.scss';
 
+
 const data = [
     {
         id: 1,
