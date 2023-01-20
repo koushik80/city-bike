@@ -159,6 +159,19 @@ The above-mentioned requirements are given to submit this assignment. The below-
 <li>path</li>
 </ul>
 
+<h4 align="left" font="bold">Environment Variables used in the frontend and backend</h4>
+
+<ul>
+<li>REACT_APP_ACCESS_TOKEN</li>
+<li>REACT_APP_FORM_URL</li>
+<li>NODE_ENV</li>
+<li>MONGO_URL_DEV</li>
+<li>PORT</li>
+<li>CORS_ORIGIN</li>
+<li>SERVER_URL</li>
+<li>EMAIL_HOST_PASSWORD</li>
+</ul>
+
 <h4 align="left" font="bold">Development Environment</h4>
 
 <ul>
