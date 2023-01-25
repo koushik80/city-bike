@@ -1,11 +1,12 @@
 import { Box, Card, Container, Pagination, Stack, Typography } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useState, useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { journeyPagination, journeySearch } from '../features/filter/filterSlice';
 import { useGetJourneyQuery } from '../features/journey/journeyApi';
 import { meterToKm, secondsToHours } from '../utils/utils';
 import './Journey.scss';
+import Input from '../components/input/Input';
 
 const Journey = () => {
 
@@ -28,6 +29,12 @@ const Journey = () => {
 
   // SEARCH FUNCTION
   const handleSearch = debounceHandler(doSearch, 500);
+
+  // Functionality for search option always focused after page reloading
+  const inputRef = useRef(null);
+  useEffect(() => {
+        inputRef.current.focus();
+    }, []);
 
   // PAGINATION FUNCTION & STATE
   const [page, setPage] = useState(1);
@@ -126,7 +133,8 @@ const Journey = () => {
       <div className='journey-page--search-section'>
           <form action="" onSubmit={(e) => e.preventDefault()}>
              <div className='journey-page--search-section--div'>
-                <input
+                 <Input
+                    ref={inputRef}
                     type="search" placeholder='search by departure station name'
                     onChange={({ target }) => handleSearch(target.value)}
                     onBlur={({ target }) => handleSearch(target.value)}

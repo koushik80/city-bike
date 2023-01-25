@@ -146,7 +146,7 @@ const Contact = () => {
                         </Grid>
                         <Grid item xs={12}>
                           <TextField
-                            label="subject"
+                            label="Subject"
                             variant="outlined"
                             fullWidth
                             name="subject"
