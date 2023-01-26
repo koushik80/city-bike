@@ -37,7 +37,7 @@ exports[`Station Test Suite should render Station component 1`] = `
       className="css-1macvdz-MuiStack-root"
     >
       <h5
-        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1eeow12-MuiTypography-root"
       >
         Stations
       </h5>

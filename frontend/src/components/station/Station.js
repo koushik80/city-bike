@@ -1,12 +1,12 @@
 import { Container, Grid, Pagination, Stack, Typography } from '@mui/material';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';  // for further use useEffect, useRef
 import { useDispatch, useSelector } from 'react-redux';
 import { pagination, search } from '../../features/filter/filterSlice';
 import { useGetStationsQuery } from '../../features/station/stationApi';
 import CardLoading from '../loader/CardLoading';
 import './Station.scss';
 import StationCard from './StationCard';
-import Input from '../input/Input';
+//import Input from '../input/Input';
 
 const Station = () => {
 
@@ -29,13 +29,13 @@ const Station = () => {
 
     // SEARCH FUNCTION
     const handleSearch = debounceHandler(doSearch, 500);
-
+/*
     // Functionality for search option always focused after page reloading
     const inputRef = useRef(null);
     useEffect(() => {
         inputRef.current.focus();
     }, []);
-
+*/
     const [page, setPage] = useState(1);
     const handleChange = (event, value) => {
         setPage(value);
@@ -82,8 +82,8 @@ const Station = () => {
                 <div className='station-page--search-section'>
                     <form action="" onSubmit={(e) => e.preventDefault()}>
                         <div className='station-page--search-section--div'>
-                            <Input
-                                ref={inputRef}
+                            <input
+                                //ref={inputRef}
                                 type="search" placeholder='search by station name'
                                 onChange={({ target }) => handleSearch(target.value)}
                                 onBlur={({ target }) => handleSearch(target.value)}

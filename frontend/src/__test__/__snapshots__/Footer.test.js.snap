@@ -24,7 +24,7 @@ exports[`Footer should render correctly 1`] = `
           </li>
           <li>
             <a
-              href="/"
+              href="/travelling"
               onClick={[Function]}
             >
               Pricing
@@ -32,10 +32,10 @@ exports[`Footer should render correctly 1`] = `
           </li>
           <li>
             <a
-              href="/"
+              href="/travelling"
               onClick={[Function]}
             >
-              Blog
+              Travelling
             </a>
           </li>
         </ul>
@@ -107,7 +107,7 @@ exports[`Footer should render correctly 1`] = `
   >
     <b>
       All rights reserved © koushik@devHuß 
-      2022
+      2023
     </b>
   </div>
 </footer>

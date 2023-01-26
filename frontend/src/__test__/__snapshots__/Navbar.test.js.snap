@@ -62,6 +62,15 @@ exports[`Home Navbar should render correctly 1`] = `
         <li>
           <a
             className=""
+            href="/travelling"
+            onClick={[Function]}
+          >
+            Travelling
+          </a>
+        </li>
+        <li>
+          <a
+            className=""
             href="/contact"
             onClick={[Function]}
           >
