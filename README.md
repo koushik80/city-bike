@@ -6,7 +6,7 @@
 <div id="header" align="center">
  <img src="https://media.giphy.com/media/778doP94sNJjYitr5C/giphy.gif" width="35" height="35"/>
 </div>
-<h4 align="center"><a href="https://city-bike.onrender.com">Ci†yßîke :biking_man:</a></h4>
+<h2 align="center"><a href="https://city-bike.onrender.com">Ci†yßîke :biking_man:</a></h2>
 </div>
 
 <div>
