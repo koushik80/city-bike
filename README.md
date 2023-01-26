@@ -217,6 +217,67 @@ To be able to set up and run the project needed to install it local computer and
 `running frontend:` `npm start` <br />
 `running backend in development environment with nodemon: npm run dev` <br />
 
+<p align="left">Possible changes to run in the development and production mode</p>
+
+`Go to frontend folder-->features-->api-->apiSlice.js`
+
+`Development:`
+
+```
+const baseQuery = fetchBaseQuery({
+ - [x]  baseUrl: `http://localhost:8080/api`, // for development
+  baseUrl: `/api`,
+  prepareHeaders: async (headers, {getState, endpoint}) => {
+
+  }
+})
+ ```
+<br />
+
+`Production:`
+
+```
+ const baseQuery = fetchBaseQuery({
+  baseUrl: `http://localhost:8080/api`,
+  - [x] baseUrl: `/api`,     // for production
+  prepareHeaders: async (headers, {getState, endpoint}) => {
+
+  }
+})
+ ```
+`Go to backend folder-->app-->app.js`
+
+`Development:`
+
+```
+app.get('/', (req, res) => {
+    res.status(200).json({
+        message: "This is JOURNEY REST API"
+    });
+});
+
+```
+<br />
+
+`Production:`
+
+```
+const __dirname1 = path.resolve();
+
+if (process.env.NODE_ENV === "PRODUCTION") {
+  app.use(express.static(path.join(__dirname1, "/frontend/build")));
+
+  app.get("*", (req, res) =>
+    res.sendFile(path.resolve(__dirname1, "frontend", "build", "index.html"))
+  );
+} else {
+  app.get("/", (req, res) => {
+    res.send("API is running..");
+  });
+}
+
+```
+
 <h4 align="left">addresses</h4>
 
 `Home:` `http://localhost:3000`  <br />
