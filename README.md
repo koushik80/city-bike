@@ -15,7 +15,7 @@
 
 ---
 
-<h1 align="center">Pre-assignment for Solita Dev Academy Finland 2023</h1>
+<h1 align="center">Pre-assignment</h1>
 
 <h3 align="left">Abstract: :speech_balloon:</h3>
 
