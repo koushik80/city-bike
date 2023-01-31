@@ -41,7 +41,7 @@ const Station = () => {
         setPage(value);
         dispatch(pagination(value));
     };
-
+    // CREATED A QUERY STRING FOR SEARCH
     const query = useSelector(state => state.filter);
 
     let queryStr = `?page=${query?.page}`;

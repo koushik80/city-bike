@@ -29,7 +29,7 @@ const Map = () => {
       setLat(map.current.getCenter().lat.toFixed(4))
       setZoom(map.current.getZoom().toFixed(2))
     })
-  })
+  }, [])
 
   return (
     <div id="map">
